@@ -16,7 +16,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className='max-w-3xl mx-auto leading-7 '>
+          {children}
+        </div>
+      </body>
     </html>
   )
 }
