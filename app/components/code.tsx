@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import SyntaxHighlighter from 'react-syntax-highlighter'
 import { stackoverflowDark } from 'react-syntax-highlighter/dist/esm/styles/hljs'
+import ClipboardOutlineCmp from './clipboard'
+import Checkmark from './checkmark'
 
 interface codeCmpProps {
   language: string
@@ -27,12 +29,14 @@ export default function CodeCmp(props: codeCmpProps) {
         <div className='flex justify-between px-4 bg-gray-700 text-white text-xs items-center '>
           <p className="text-sm">Exemplo</p>
           {copy ? (
-            <button className='py-1 inline-flex itens-center gap-1'>
-
+            <button className='py-2 flex justify-center items-center gap-1'>
+              <span className='w-4'>
+                <Checkmark />
+              </span>
               COPIADO!
             </button>
           ) : (
-            <button className='py-1 inline-flex itens-center gap-1' onClick={() => {
+            <button className='py-2 flex justify-center items-center gap-1' onClick={() => {
               navigator.clipboard.writeText(codeString)
               setCopy(true)
               setTimeout(() => {
@@ -40,6 +44,9 @@ export default function CodeCmp(props: codeCmpProps) {
               }, 1000);
             }}
             >
+              <span className='w-4'>
+                <ClipboardOutlineCmp />
+              </span>
               COPIAR
             </button>)
           }
