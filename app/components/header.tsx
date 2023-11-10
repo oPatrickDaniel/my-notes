@@ -2,7 +2,7 @@
 export default function HeaderCmp() {
     return (
         <>
-            <header className="bg-gray-700 p-4">
+            <header className="bg-gray-600 p-4">
                 <div className="container mx-auto">
                     <nav className="flex justify-between items-center flex-wrap text-white">
                         <div className="logo text-white text-xl font-bold">Minha Anotações</div>
