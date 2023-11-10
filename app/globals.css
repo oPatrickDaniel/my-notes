@@ -4,16 +4,6 @@
 
 /* :root {} */
 
-ul {
-    list-style: disc;
-    list-style-position: inside;
-}
-
-ol {
-    list-style-type: decimal;
-    list-style-position: inside;
-}
-
 h1 {
     @apply text-center text-blue-700 font-bold text-4xl
 }
@@ -26,6 +16,25 @@ h3 {
     @apply text-blue-800 font-bold text-xl mt-2
 }
 
+h4 {
+    @apply text-blue-900 font-bold text-lg mt-6
+}
+
 p {
-    text-align: justify;
+    @apply text-justify
+}
+
+table {
+    @apply w-full
+}
+
+table,
+th,
+td {
+    @apply border border-gray-500 mt-2
+}
+
+table th,
+table td {
+    @apply p-2;
 }
