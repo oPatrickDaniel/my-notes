@@ -1,7 +1,7 @@
 'use client'
 import { useState } from 'react'
 import SyntaxHighlighter from 'react-syntax-highlighter'
-import { stackoverflowDark } from 'react-syntax-highlighter/dist/esm/styles/hljs'
+import { stackoverflowLight } from 'react-syntax-highlighter/dist/esm/styles/hljs'
 import ClipboardOutlineCmp from './clipboard'
 import Checkmark from './checkmark'
 
@@ -17,8 +17,8 @@ export default function CodeCmp(props: codeCmpProps) {
 
   return (
     <>
-      <div className="mt-3 rounded overflow-hidden">
-        <div className="flex justify-between px-4 bg-gray-700 text-white text-xs items-center ">
+      <div className="my-3 rounded overflow-hidden border border-gray-400">
+        <div className="flex justify-between px-4 bg-gray-500 text-white text-xs items-center ">
           <p className="text-sm">Exemplo</p>
           {copy ? (
             <button className="py-2 flex justify-center items-center gap-1">
@@ -47,7 +47,7 @@ export default function CodeCmp(props: codeCmpProps) {
         </div>
         <SyntaxHighlighter
           language={props.language}
-          style={stackoverflowDark}
+          style={stackoverflowLight}
           customStyle={{
             padding: '10px',
           }}
