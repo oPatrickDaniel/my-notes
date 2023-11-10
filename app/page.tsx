@@ -74,9 +74,9 @@ export default function Home() {
         </p>
         <CodeCmp language="q">
           {`input salario-mensal
-           input horas-trabalhadas-por-mes
-           valor-hora = salario-mensal / horas-trabalhadas-por-mes
-           print valor-hora`}
+input horas-trabalhadas-por-mes
+valor-hora = salario-mensal / horas-trabalhadas-por-mes
+print valor-hora`}
         </CodeCmp>
       </SectionCmp>
     </>
