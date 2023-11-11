@@ -129,75 +129,83 @@ export default function ComponentName() {
         </p>
         <h4>Unidades fixas</h4>
         <table>
-          <tr>
-            <th>atributo</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>cm</td>
-            <td>centímetros</td>
-          </tr>
-          <tr>
-            <td>mm</td>
-            <td>milímetros</td>
-          </tr>
-          <tr>
-            <td>in</td>
-            <td>onças</td>
-          </tr>
-          <tr>
-            <td>px</td>
-            <td>pixels</td>
-          </tr>
-          <tr>
-            <td>pt</td>
-            <td>pontos</td>
-          </tr>
-          <tr>
-            <td>pc</td>
-            <td>picas</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>atributo</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>cm</td>
+              <td>centímetros</td>
+            </tr>
+            <tr>
+              <td>mm</td>
+              <td>milímetros</td>
+            </tr>
+            <tr>
+              <td>in</td>
+              <td>onças</td>
+            </tr>
+            <tr>
+              <td>px</td>
+              <td>pixels</td>
+            </tr>
+            <tr>
+              <td>pt</td>
+              <td>pontos</td>
+            </tr>
+            <tr>
+              <td>pc</td>
+              <td>picas</td>
+            </tr>
+          </tbody>
         </table>
         <h4>Unidades relativas</h4>
         <table>
-          <tr>
-            <th>Unidade de Medida</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>em</td>
-            <td>
-              É referente ao tamanho do elemento pai (2em = 2*elementoPai)
-            </td>
-          </tr>
-          <tr>
-            <td>rem</td>
-            <td>É referente ao tamanho do elemento raiz(Html)</td>
-          </tr>
-          <tr>
-            <td>vw</td>
-            <td>
-              É referente a largura da página (1vw = 1% da largura da página)
-            </td>
-          </tr>
-          <tr>
-            <td>vh</td>
-            <td>
-              É referente a altura da página (1vw = 1% da altura da página)
-            </td>
-          </tr>
-          <tr>
-            <td>vmin</td>
-            <td>É referente ao menor valor da relação altura x largura</td>
-          </tr>
-          <tr>
-            <td>vmax</td>
-            <td>É referente ao maior valor da relação altura x largura</td>
-          </tr>
-          <tr>
-            <td>%</td>
-            <td>É referente ao tamanho do elemento pai</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Unidade de Medida</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>em</td>
+              <td>
+                É referente ao tamanho do elemento pai (2em = 2*elementoPai)
+              </td>
+            </tr>
+            <tr>
+              <td>rem</td>
+              <td>É referente ao tamanho do elemento raiz(Html)</td>
+            </tr>
+            <tr>
+              <td>vw</td>
+              <td>
+                É referente a largura da página (1vw = 1% da largura da página)
+              </td>
+            </tr>
+            <tr>
+              <td>vh</td>
+              <td>
+                É referente a altura da página (1vw = 1% da altura da página)
+              </td>
+            </tr>
+            <tr>
+              <td>vmin</td>
+              <td>É referente ao menor valor da relação altura x largura</td>
+            </tr>
+            <tr>
+              <td>vmax</td>
+              <td>É referente ao maior valor da relação altura x largura</td>
+            </tr>
+            <tr>
+              <td>%</td>
+              <td>É referente ao tamanho do elemento pai</td>
+            </tr>
+          </tbody>
         </table>
       </SectionCmp>
 
@@ -224,42 +232,46 @@ export default function ComponentName() {
           ser pintada, estilizada, curvada, etc.
         </p>
         <table>
-          <tr>
-            <th>Atributos</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>border-radius</td>
-            <td>Curva a borda do elemento</td>
-          </tr>
-          <tr>
-            <td>border-bottom</td>
-            <td>Cria a borda inferior</td>
-          </tr>
-          <tr>
-            <td>border-top</td>
-            <td>Cria a borda superior</td>
-          </tr>
-          <tr>
-            <td>border-color</td>
-            <td>Muda a cor da borda</td>
-          </tr>
-          <tr>
-            <td>border-left</td>
-            <td>Cria a borda da esquerda</td>
-          </tr>
-          <tr>
-            <td>border-right</td>
-            <td>Cria a borda da direita</td>
-          </tr>
-          <tr>
-            <td>border-width</td>
-            <td>Dá o tamanho da borda</td>
-          </tr>
-          <tr>
-            <td>border-style</td>
-            <td>Dá formato a borda (sólida, pontilhada, etc.)</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Atributos</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>border-radius</td>
+              <td>Curva a borda do elemento</td>
+            </tr>
+            <tr>
+              <td>border-bottom</td>
+              <td>Cria a borda inferior</td>
+            </tr>
+            <tr>
+              <td>border-top</td>
+              <td>Cria a borda superior</td>
+            </tr>
+            <tr>
+              <td>border-color</td>
+              <td>Muda a cor da borda</td>
+            </tr>
+            <tr>
+              <td>border-left</td>
+              <td>Cria a borda da esquerda</td>
+            </tr>
+            <tr>
+              <td>border-right</td>
+              <td>Cria a borda da direita</td>
+            </tr>
+            <tr>
+              <td>border-width</td>
+              <td>Dá o tamanho da borda</td>
+            </tr>
+            <tr>
+              <td>border-style</td>
+              <td>Dá formato a borda (sólida, pontilhada, etc.)</td>
+            </tr>
+          </tbody>
         </table>
       </SectionCmp>
 
@@ -304,45 +316,49 @@ export default function ComponentName() {
           Abaixo algumas dessas.
         </p>
         <table>
-          <tr>
-            <th>Atributo</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>color</td>
-            <td>Muda a cor do texto</td>
-          </tr>
-          <tr>
-            <td>text-align</td>
-            <td>Posiciona o texto</td>
-          </tr>
-          <tr>
-            <td>text-shadow</td>
-            <td>Coloca uma sombra no texto</td>
-          </tr>
-          <tr>
-            <td>text-decoration</td>
-            <td>
-              Cria tags de formatação como no HTML (negrito, sublinhado, etc.)
-            </td>
-          </tr>
-          <tr>
-            <td>text-transform</td>
-            <td>
-              Transforma o texto em letras maiúsculas, minúsculas ou híbridas
-            </td>
-          </tr>
-          <tr>
-            <td>text-overflow</td>
-            <td>
-              Define o que acontece quando o texto excede o tamanho do elemento
-              pai
-            </td>
-          </tr>
-          <tr>
-            <td>text-indent</td>
-            <td>Cria um espaço no início de parágrafos</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Atributo</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>color</td>
+              <td>Muda a cor do texto</td>
+            </tr>
+            <tr>
+              <td>text-align</td>
+              <td>Posiciona o texto</td>
+            </tr>
+            <tr>
+              <td>text-shadow</td>
+              <td>Coloca uma sombra no texto</td>
+            </tr>
+            <tr>
+              <td>text-decoration</td>
+              <td>
+                Cria tags de formatação como no HTML (negrito, sublinhado, etc.)
+              </td>
+            </tr>
+            <tr>
+              <td>text-transform</td>
+              <td>
+                Transforma o texto em letras maiúsculas, minúsculas ou híbridas
+              </td>
+            </tr>
+            <tr>
+              <td>text-overflow</td>
+              <td>
+                Define o que acontece quando o texto excede o tamanho do
+                elemento pai
+              </td>
+            </tr>
+            <tr>
+              <td>text-indent</td>
+              <td>Cria um espaço no início de parágrafos</td>
+            </tr>
+          </tbody>
         </table>
       </SectionCmp>
 
@@ -361,33 +377,39 @@ export default function ComponentName() {
           as letras, diferente das com serifa.
         </p>
         <table>
-          <tr>
-            <th>Atributo</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>font-family</td>
-            <td>Muda a fonte do texto</td>
-          </tr>
-          <tr>
-            <td>font-size</td>
-            <td>muda o tamanho do texto</td>
-          </tr>
-          <tr>
-            <td>font-style</td>
-            <td>muda o estilo da fonte (itálico, sublinhado, etc.)</td>
-          </tr>
-          <tr>
-            <td>font-weight</td>
-            <td>muda a &quot;grossura&quot; do texto (bold, negrito, etc.)</td>
-          </tr>
-          <tr>
-            <td>font-variant</td>
-            <td>
-              Transforma as letras do texto em maiúsculas, destacando as que já
-              eram desse tipo
-            </td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Atributo</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>font-family</td>
+              <td>Muda a fonte do texto</td>
+            </tr>
+            <tr>
+              <td>font-size</td>
+              <td>muda o tamanho do texto</td>
+            </tr>
+            <tr>
+              <td>font-style</td>
+              <td>muda o estilo da fonte (itálico, sublinhado, etc.)</td>
+            </tr>
+            <tr>
+              <td>font-weight</td>
+              <td>
+                muda a &quot;grossura&quot; do texto (bold, negrito, etc.)
+              </td>
+            </tr>
+            <tr>
+              <td>font-variant</td>
+              <td>
+                Transforma as letras do texto em maiúsculas, destacando as que
+                já eram desse tipo
+              </td>
+            </tr>
+          </tbody>
         </table>
       </SectionCmp>
 
@@ -421,29 +443,33 @@ a:visited {
           modificação na descrição da videoaula).
         </p>
         <table>
-          <tr>
-            <th>Método</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>list-style-type</td>
-            <td>
-              Especifica o tipo de marcador de lista a ser usado (por exemplo,
-              círculos, números, etc.)
-            </td>
-          </tr>
-          <tr>
-            <td>list-style-image</td>
-            <td>Especifica uma imagem a ser usada como marcador de lista</td>
-          </tr>
-          <tr>
-            <td>list-style-position</td>
-            <td>
-              Especifica onde o marcador de lista deve ser colocado em relação
-              ao conteúdo da lista (por exemplo, dentro ou fora da caixa de
-              conteúdo)
-            </td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Método</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>list-style-type</td>
+              <td>
+                Especifica o tipo de marcador de lista a ser usado (por exemplo,
+                círculos, números, etc.)
+              </td>
+            </tr>
+            <tr>
+              <td>list-style-image</td>
+              <td>Especifica uma imagem a ser usada como marcador de lista</td>
+            </tr>
+            <tr>
+              <td>list-style-position</td>
+              <td>
+                Especifica onde o marcador de lista deve ser colocado em relação
+                ao conteúdo da lista (por exemplo, dentro ou fora da caixa de
+                conteúdo)
+              </td>
+            </tr>
+          </tbody>
         </table>
       </SectionCmp>
 
@@ -459,40 +485,44 @@ a:visited {
           isso, deve-se usar a tag &quot;display&quot;.
         </p>
         <table>
-          <tr>
-            <th>Método</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>display: block;</td>
-            <td>
-              Faz com que o elemento seja exibido como um bloco, ocupando toda a
-              largura disponível e empurrando para baixo outros elementos
-            </td>
-          </tr>
-          <tr>
-            <td>display: inline;</td>
-            <td>
-              Faz com que o elemento seja exibido como uma linha, ocupando o
-              mínimo espaço necessário e permitindo que outros elementos sejam
-              exibidos ao lado dele
-            </td>
-          </tr>
-          <tr>
-            <td>display: inline-block;</td>
-            <td>
-              Faz com que o elemento seja exibido como um bloco em linha,
-              permitindo que outros elementos sejam exibidos ao lado dele na
-              mesma linha, mas ainda mantendo as propriedades de um bloco
-            </td>
-          </tr>
-          <tr>
-            <td>display: none;</td>
-            <td>
-              Faz com que o elemento seja completamente removido da página e não
-              ocupe nenhum espaço, tornando-o invisível
-            </td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Método</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>display: block;</td>
+              <td>
+                Faz com que o elemento seja exibido como um bloco, ocupando toda
+                a largura disponível e empurrando para baixo outros elementos
+              </td>
+            </tr>
+            <tr>
+              <td>display: inline;</td>
+              <td>
+                Faz com que o elemento seja exibido como uma linha, ocupando o
+                mínimo espaço necessário e permitindo que outros elementos sejam
+                exibidos ao lado dele
+              </td>
+            </tr>
+            <tr>
+              <td>display: inline-block;</td>
+              <td>
+                Faz com que o elemento seja exibido como um bloco em linha,
+                permitindo que outros elementos sejam exibidos ao lado dele na
+                mesma linha, mas ainda mantendo as propriedades de um bloco
+              </td>
+            </tr>
+            <tr>
+              <td>display: none;</td>
+              <td>
+                Faz com que o elemento seja completamente removido da página e
+                não ocupe nenhum espaço, tornando-o invisível
+              </td>
+            </tr>
+          </tbody>
         </table>
       </SectionCmp>
 
@@ -537,35 +567,42 @@ a:visited {
           scroll.
         </p>
         <table>
-          <tr>
-            <th>Método</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>overflow: visible;</td>
-            <td>Permite que o conteúdo vaze além das bordas do elemento pai</td>
-          </tr>
-          <tr>
-            <td>overflow: hidden;</td>
-            <td>
-              Oculta qualquer conteúdo que ultrapasse as bordas do elemento pai
-            </td>
-          </tr>
-          <tr>
-            <td>overflow: scroll;</td>
-            <td>
-              Exibe barras de rolagem para permitir que o usuário role o
-              conteúdo que ultrapassa as bordas do elemento pai(o scroll sempre
-              fica visível em cima e em baixo)
-            </td>
-          </tr>
-          <tr>
-            <td>overflow: auto;</td>
-            <td>
-              Exibe barras de rolagem somente quando necessário, com base no
-              tamanho do conteúdo que ultrapassa as bordas do elemento pai
-            </td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Método</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>overflow: visible;</td>
+              <td>
+                Permite que o conteúdo vaze além das bordas do elemento pai
+              </td>
+            </tr>
+            <tr>
+              <td>overflow: hidden;</td>
+              <td>
+                Oculta qualquer conteúdo que ultrapasse as bordas do elemento
+                pai
+              </td>
+            </tr>
+            <tr>
+              <td>overflow: scroll;</td>
+              <td>
+                Exibe barras de rolagem para permitir que o usuário role o
+                conteúdo que ultrapassa as bordas do elemento pai(o scroll
+                sempre fica visível em cima e em baixo)
+              </td>
+            </tr>
+            <tr>
+              <td>overflow: auto;</td>
+              <td>
+                Exibe barras de rolagem somente quando necessário, com base no
+                tamanho do conteúdo que ultrapassa as bordas do elemento pai
+              </td>
+            </tr>
+          </tbody>
         </table>
         <h4>Overflow-wrap</h4>
         <p>
@@ -599,49 +636,53 @@ div {
           página se afetar o posicionamento de outros.
         </p>
         <table>
-          <tr>
-            <th>Método</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>position: static;</td>
-            <td>
-              O position static é o padrão e faz com que os próximos elementos
-              fiquem do lado ou abaixo do primeiro elemento (depende do
-              display).
-            </td>
-          </tr>
-          <tr>
-            <td>position: relative;</td>
-            <td>
-              Faz com que o posicionamento do elemento fique relativo ao
-              elemento static, mas os outros elementos mantém o posicionamento
-              inicial como referencia
-            </td>
-          </tr>
-          <tr>
-            <td>position: absolute;</td>
-            <td>
-              Faz com que o posicionamento do elemento fique relativo ao
-              elemento pai que não seja static, e os outros elementos perdem a
-              referencia de posição dele
-            </td>
-          </tr>
-          <tr>
-            <td>position: fixed;</td>
-            <td>
-              Faz com que o posicionamento do elemento fique relativo ao
-              display, permanecendo sempre visível mesmo ao rolar a página
-            </td>
-          </tr>
-          <tr>
-            <td>position: sticky;</td>
-            <td>
-              Faz com que o posicionamento do elemento fique grudado em um
-              posicionamento pre definido, assim quando a pagina e rolada o
-              elemento não se mexe
-            </td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Método</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>position: static;</td>
+              <td>
+                O position static é o padrão e faz com que os próximos elementos
+                fiquem do lado ou abaixo do primeiro elemento (depende do
+                display).
+              </td>
+            </tr>
+            <tr>
+              <td>position: relative;</td>
+              <td>
+                Faz com que o posicionamento do elemento fique relativo ao
+                elemento static, mas os outros elementos mantém o posicionamento
+                inicial como referencia
+              </td>
+            </tr>
+            <tr>
+              <td>position: absolute;</td>
+              <td>
+                Faz com que o posicionamento do elemento fique relativo ao
+                elemento pai que não seja static, e os outros elementos perdem a
+                referencia de posição dele
+              </td>
+            </tr>
+            <tr>
+              <td>position: fixed;</td>
+              <td>
+                Faz com que o posicionamento do elemento fique relativo ao
+                display, permanecendo sempre visível mesmo ao rolar a página
+              </td>
+            </tr>
+            <tr>
+              <td>position: sticky;</td>
+              <td>
+                Faz com que o posicionamento do elemento fique grudado em um
+                posicionamento pre definido, assim quando a pagina e rolada o
+                elemento não se mexe
+              </td>
+            </tr>
+          </tbody>
         </table>
       </SectionCmp>
 

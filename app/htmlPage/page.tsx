@@ -490,35 +490,40 @@ lista.dataset.n = 4`}
           tag podemos usar alguns atributos:
         </p>
         <table>
-          <tr>
-            <th>Atributos</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>
-              width=&quot;&quot; <br />
-              weight=&quot;&quot;
-            </td>
-            <td>Alteram a proporção do vídeo(altura e largura)</td>
-          </tr>
-          <tr>
-            <td>controls</td>
-            <td>Adiciona os controles ao vídeo</td>
-          </tr>
-          <tr>
-            <td>autoplay</td>
-            <td>Inicia o vídeo automaticamente</td>
-          </tr>
-          <tr>
-            <td>poster=&quot;&quot;</td>
-            <td>Adiciona uma thumbnail ao vídeo</td>
-          </tr>
-          <tr>
-            <td>preload=&quot;&quot;</td>
-            <td>
-              Carrega dados parciais ou completos do vídeo antes de ser iniciado
-            </td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Atributos</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                width=&quot;&quot; <br />
+                weight=&quot;&quot;
+              </td>
+              <td>Alteram a proporção do vídeo(altura e largura)</td>
+            </tr>
+            <tr>
+              <td>controls</td>
+              <td>Adiciona os controles ao vídeo</td>
+            </tr>
+            <tr>
+              <td>autoplay</td>
+              <td>Inicia o vídeo automaticamente</td>
+            </tr>
+            <tr>
+              <td>poster=&quot;&quot;</td>
+              <td>Adiciona uma thumbnail ao vídeo</td>
+            </tr>
+            <tr>
+              <td>preload=&quot;&quot;</td>
+              <td>
+                Carrega dados parciais ou completos do vídeo antes de ser
+                iniciado
+              </td>
+            </tr>
+          </tbody>
         </table>
       </SectionCmp>
 
@@ -528,26 +533,30 @@ lista.dataset.n = 4`}
           abaixo alguns methods nativos:
         </p>
         <table>
-          <tr>
-            <th>Métodos</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>.play</td>
-            <td>Inicia o video</td>
-          </tr>
-          <tr>
-            <td>.pause</td>
-            <td>Pausa o video</td>
-          </tr>
-          <tr>
-            <td>.currentTime</td>
-            <td>Pula ou volta segundos do video</td>
-          </tr>
-          <tr>
-            <td>.playbackRate</td>
-            <td>Modifica a velocidade de reprodução do video</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Métodos</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>.play</td>
+              <td>Inicia o video</td>
+            </tr>
+            <tr>
+              <td>.pause</td>
+              <td>Pausa o video</td>
+            </tr>
+            <tr>
+              <td>.currentTime</td>
+              <td>Pula ou volta segundos do video</td>
+            </tr>
+            <tr>
+              <td>.playbackRate</td>
+              <td>Modifica a velocidade de reprodução do video</td>
+            </tr>
+          </tbody>
         </table>
       </SectionCmp>
 

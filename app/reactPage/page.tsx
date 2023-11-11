@@ -92,56 +92,60 @@ render() {
           abaixo os principais.
         </p>
         <table>
-          <tr>
-            <th>Método</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>Constructor</td>
-            <td>
-              Método chamado quando uma instância do componente é criada. É
-              usado para configurar o estado inicial do componente e definir
-              propriedades. Pode ser omitido se não for necessário configurar um
-              estado inicial complexo.
-            </td>
-          </tr>
-          <tr>
-            <td>shouldComponentUpdate</td>
-            <td>
-              Método que determina se o componente deve ser
-              atualizado/renderizado novamente. Pode ser usado para otimizar o
-              desempenho, evitando renderizações desnecessárias. Retorna um
-              valor booleano (verdadeiro/falso) baseado em comparações entre as
-              props e o estado anterior e atual.
-            </td>
-          </tr>
-          <tr>
-            <td>componentDidMount</td>
-            <td>
-              Método chamado logo após o componente ser inserido no DOM. É usado
-              para realizar tarefas de inicialização, como buscar dados de APIs
-              externas ou configurar event listeners. Também é um bom lugar para
-              realizar ações que requerem acesso ao DOM.
-            </td>
-          </tr>
-          <tr>
-            <td>componentWillUnmount</td>
-            <td>
-              Método chamado antes de um componente ser removido do DOM e
-              destruído. É usado para limpar recursos, como cancelar
-              solicitações de API, remover event listeners e fazer outras
-              tarefas de limpeza antes que o componente seja desmontado.
-            </td>
-          </tr>
-          <tr>
-            <td>render</td>
-            <td>
-              Método que retorna os elementos JSX que compõem a representação
-              visual do componente. É chamado sempre que o componente precisa
-              ser renderizado novamente. Ele deve ser uma função pura, sem
-              efeitos colaterais.
-            </td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Método</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Constructor</td>
+              <td>
+                Método chamado quando uma instância do componente é criada. É
+                usado para configurar o estado inicial do componente e definir
+                propriedades. Pode ser omitido se não for necessário configurar
+                um estado inicial complexo.
+              </td>
+            </tr>
+            <tr>
+              <td>shouldComponentUpdate</td>
+              <td>
+                Método que determina se o componente deve ser
+                atualizado/renderizado novamente. Pode ser usado para otimizar o
+                desempenho, evitando renderizações desnecessárias. Retorna um
+                valor booleano (verdadeiro/falso) baseado em comparações entre
+                as props e o estado anterior e atual.
+              </td>
+            </tr>
+            <tr>
+              <td>componentDidMount</td>
+              <td>
+                Método chamado logo após o componente ser inserido no DOM. É
+                usado para realizar tarefas de inicialização, como buscar dados
+                de APIs externas ou configurar event listeners. Também é um bom
+                lugar para realizar ações que requerem acesso ao DOM.
+              </td>
+            </tr>
+            <tr>
+              <td>componentWillUnmount</td>
+              <td>
+                Método chamado antes de um componente ser removido do DOM e
+                destruído. É usado para limpar recursos, como cancelar
+                solicitações de API, remover event listeners e fazer outras
+                tarefas de limpeza antes que o componente seja desmontado.
+              </td>
+            </tr>
+            <tr>
+              <td>render</td>
+              <td>
+                Método que retorna os elementos JSX que compõem a representação
+                visual do componente. É chamado sempre que o componente precisa
+                ser renderizado novamente. Ele deve ser uma função pura, sem
+                efeitos colaterais.
+              </td>
+            </tr>
+          </tbody>
         </table>
         <p>
           ps: O uso do método componentWillUnmount está sendo gradualmente

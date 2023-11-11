@@ -174,42 +174,46 @@ export default function JavascriptPage() {
         </p>
 
         <table>
-          <tr>
-            <th>Operador</th>
-            <th>Significado</th>
-          </tr>
-          <tr>
-            <td>==</td>
-            <td>Igual </td>
-          </tr>
-          <tr>
-            <td>!=</td>
-            <td>Diferente</td>
-          </tr>
-          <tr>
-            <td>===</td>
-            <td>Igualdade estrita (valor e tipo de operador)</td>
-          </tr>
-          <tr>
-            <td>!==</td>
-            <td>Diferença estrita (valor e tipo de operador)</td>
-          </tr>
-          <tr>
-            <td>&lt;</td>
-            <td>Menor que</td>
-          </tr>
-          <tr>
-            <td>&gt;</td>
-            <td>Maior que</td>
-          </tr>
-          <tr>
-            <td>&lt;=</td>
-            <td>Menor ou igual a</td>
-          </tr>
-          <tr>
-            <td>&gt;=</td>
-            <td>Maior ou igual a</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Operador</th>
+              <th>Significado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>==</td>
+              <td>Igual </td>
+            </tr>
+            <tr>
+              <td>!=</td>
+              <td>Diferente</td>
+            </tr>
+            <tr>
+              <td>===</td>
+              <td>Igualdade estrita (valor e tipo de operador)</td>
+            </tr>
+            <tr>
+              <td>!==</td>
+              <td>Diferença estrita (valor e tipo de operador)</td>
+            </tr>
+            <tr>
+              <td>&lt;</td>
+              <td>Menor que</td>
+            </tr>
+            <tr>
+              <td>&gt;</td>
+              <td>Maior que</td>
+            </tr>
+            <tr>
+              <td>&lt;=</td>
+              <td>Menor ou igual a</td>
+            </tr>
+            <tr>
+              <td>&gt;=</td>
+              <td>Maior ou igual a</td>
+            </tr>
+          </tbody>
         </table>
       </SectionCmp>
 
@@ -692,28 +696,32 @@ alert() === window.alert()`}
           dom pelo Js.
         </p>
         <table>
-          <tr>
-            <th>Método</th>
-            <th>Descrição</th>
-          </tr>
-          <tr>
-            <td>innerHTML</td>
-            <td>Define ou retorna o conteúdo HTML de um elemento.</td>
-          </tr>
-          <tr>
-            <td>innerText</td>
-            <td>
-              Define ou retorna o conteúdo de texto de um elemento, sem incluir
-              as tags HTML.
-            </td>
-          </tr>
-          <tr>
-            <td>textContent</td>
-            <td>
-              Define ou retorna o conteúdo de texto de um elemento, incluindo as
-              quebras de linha.
-            </td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Método</th>
+              <th>Descrição</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>innerHTML</td>
+              <td>Define ou retorna o conteúdo HTML de um elemento.</td>
+            </tr>
+            <tr>
+              <td>innerText</td>
+              <td>
+                Define ou retorna o conteúdo de texto de um elemento, sem
+                incluir as tags HTML.
+              </td>
+            </tr>
+            <tr>
+              <td>textContent</td>
+              <td>
+                Define ou retorna o conteúdo de texto de um elemento, incluindo
+                as quebras de linha.
+              </td>
+            </tr>
+          </tbody>
         </table>
       </SectionCmp>
 
@@ -795,150 +803,155 @@ t1.onclick = function;`}
 
         <p>Abaixo uma lista com todos os eventos do js.</p>
         <table>
-          <tr>
-            <th>Evento</th>
-            <th>Origem</th>
-            <th>Descrição</th>
-            <th>Elementos onde se aplica</th>
-          </tr>
-          <tr>
-            <th>onload</th>
-            <td>documento</td>
-            <td>Disparado quando documento é carregado</td>
-            <td>body,frameset</td>
-          </tr>
-          <tr>
-            <th>onunload</th>
-            <td>documento</td>
-            <td>
-              Disparado quando documento é descarregado de janela ou de frame
-            </td>
-            <td>body,frameset</td>
-          </tr>
-          <tr>
-            <th>onsubmit</th>
-            <td>documento</td>
-            <td>Disparado quando formulário é submetido</td>
-            <td>form</td>
-          </tr>
-          <tr>
-            <th>onreset</th>
-            <td>mouse</td>
-            <td>
-              Disparado quando formulário é &quot;limpado&quot; via botão de
-              reset
-            </td>
-            <td>form</td>
-          </tr>
-          <tr>
-            <th>onselect</th>
-            <td>mouse</td>
-            <td>
-              Disparado quando texto é selecionado numa area de entrada de texto
-            </td>
-            <td>
-              input type=&quot;text&quot;, ou type=&quot;password&quot; ou
-              textarea
-            </td>
-          </tr>
-          <tr>
-            <th>onblur</th>
-            <td>mouse/teclado</td>
-            <td>
-              Disparado quando elemento de entrada do formulário perde o foco,
-              i.é, qdo texto fora do elemento é selecionado
-            </td>
-            <td>a, area, button, input, select, textarea</td>
-          </tr>
-          <tr>
-            <th>onchange</th>
-            <td>mouse/teclado</td>
-            <td>Disparado quando elemento perde o foco e foi modificado</td>
-            <td>input, select,textarea</td>
-          </tr>
-          <tr>
-            <th>onclick</th>
-            <td>mouse</td>
-            <td>
-              Disparado quando botão de formulário é pressionado ou link é
-              selecionado via click do mouse
-            </td>
-            <td>maioria</td>
-          </tr>
-          <tr>
-            <th>ondblclick</th>
-            <td>mouse</td>
-            <td>Idem, mas click duplo do mouse</td>
-            <td>maioria</td>
-          </tr>
-          <tr>
-            <th>onfocus</th>
-            <td>mouse/teclado</td>
-            <td>
-              Disparado quando o elemento recebe foco: clicando o mouse dentro
-              do elemento ou entrando no mesmo via Tab
-            </td>
-            <td>a, area, button, input, select, textarea</td>
-          </tr>
-          <tr>
-            <th>onmousedown</th>
-            <td>mouse</td>
-            <td>
-              Disparado quando mouse é pressionado enquanto está sobre um
-              elemento
-            </td>
-            <td>maioria</td>
-          </tr>
-          <tr>
-            <th>onmouseup</th>
-            <td>mouse</td>
-            <td>Idem, mas quando mouse é despressionado</td>
-            <td>maioria</td>
-          </tr>
-          <tr>
-            <th>onmousemove</th>
-            <td>mouse</td>
-            <td>Disparado quando mouse é movido enquanto sobre elemento</td>
-            <td>maioria</td>
-          </tr>
-          <tr>
-            <th>onmouseout</th>
-            <td>mouse</td>
-            <td>
-              Disparado quando mouse é movido fora do elemento onde estava
-            </td>
-            <td>maioria</td>
-          </tr>
-          <tr>
-            <th>onmouseover</th>
-            <td>mouse</td>
-            <td>Disparado quando cursor do mouse é movido sobre elemento</td>
-            <td>maioria</td>
-          </tr>
-          <tr>
-            <th>onkeydown</th>
-            <td>teclado</td>
-            <td>Disparado quando tecla é pressionada.</td>
-            <td>maioria</td>
-          </tr>
-          <tr>
-            <th>onkeypress</th>
-            <td>teclado</td>
-            <td>Disparado quando tecla é pressionada e liberada.</td>
-            <td>maioria</td>
-          </tr>
-          <tr>
-            <th>onkeyup</th>
-            <td>teclado</td>
-            <td>Disparado quando tecla pressionada é liberada.</td>
-            <td>maioria</td>
-          </tr>
-          <tr>
-            <th>DOMContentLoaded</th>
-            <td>dom</td>
-            <td>Disparado quando o elemento dom é carregado</td>
-            <td>dom</td>
-          </tr>
+          <thead>
+            <tr>
+              <th>Evento</th>
+              <th>Origem</th>
+              <th>Descrição</th>
+              <th>Elementos onde se aplica</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>onload</th>
+              <td>documento</td>
+              <td>Disparado quando documento é carregado</td>
+              <td>body,frameset</td>
+            </tr>
+            <tr>
+              <th>onunload</th>
+              <td>documento</td>
+              <td>
+                Disparado quando documento é descarregado de janela ou de frame
+              </td>
+              <td>body,frameset</td>
+            </tr>
+            <tr>
+              <th>onsubmit</th>
+              <td>documento</td>
+              <td>Disparado quando formulário é submetido</td>
+              <td>form</td>
+            </tr>
+            <tr>
+              <th>onreset</th>
+              <td>mouse</td>
+              <td>
+                Disparado quando formulário é &quot;limpado&quot; via botão de
+                reset
+              </td>
+              <td>form</td>
+            </tr>
+            <tr>
+              <th>onselect</th>
+              <td>mouse</td>
+              <td>
+                Disparado quando texto é selecionado numa area de entrada de
+                texto
+              </td>
+              <td>
+                input type=&quot;text&quot;, ou type=&quot;password&quot; ou
+                textarea
+              </td>
+            </tr>
+            <tr>
+              <th>onblur</th>
+              <td>mouse/teclado</td>
+              <td>
+                Disparado quando elemento de entrada do formulário perde o foco,
+                i.é, qdo texto fora do elemento é selecionado
+              </td>
+              <td>a, area, button, input, select, textarea</td>
+            </tr>
+            <tr>
+              <th>onchange</th>
+              <td>mouse/teclado</td>
+              <td>Disparado quando elemento perde o foco e foi modificado</td>
+              <td>input, select,textarea</td>
+            </tr>
+            <tr>
+              <th>onclick</th>
+              <td>mouse</td>
+              <td>
+                Disparado quando botão de formulário é pressionado ou link é
+                selecionado via click do mouse
+              </td>
+              <td>maioria</td>
+            </tr>
+            <tr>
+              <th>ondblclick</th>
+              <td>mouse</td>
+              <td>Idem, mas click duplo do mouse</td>
+              <td>maioria</td>
+            </tr>
+            <tr>
+              <th>onfocus</th>
+              <td>mouse/teclado</td>
+              <td>
+                Disparado quando o elemento recebe foco: clicando o mouse dentro
+                do elemento ou entrando no mesmo via Tab
+              </td>
+              <td>a, area, button, input, select, textarea</td>
+            </tr>
+            <tr>
+              <th>onmousedown</th>
+              <td>mouse</td>
+              <td>
+                Disparado quando mouse é pressionado enquanto está sobre um
+                elemento
+              </td>
+              <td>maioria</td>
+            </tr>
+            <tr>
+              <th>onmouseup</th>
+              <td>mouse</td>
+              <td>Idem, mas quando mouse é despressionado</td>
+              <td>maioria</td>
+            </tr>
+            <tr>
+              <th>onmousemove</th>
+              <td>mouse</td>
+              <td>Disparado quando mouse é movido enquanto sobre elemento</td>
+              <td>maioria</td>
+            </tr>
+            <tr>
+              <th>onmouseout</th>
+              <td>mouse</td>
+              <td>
+                Disparado quando mouse é movido fora do elemento onde estava
+              </td>
+              <td>maioria</td>
+            </tr>
+            <tr>
+              <th>onmouseover</th>
+              <td>mouse</td>
+              <td>Disparado quando cursor do mouse é movido sobre elemento</td>
+              <td>maioria</td>
+            </tr>
+            <tr>
+              <th>onkeydown</th>
+              <td>teclado</td>
+              <td>Disparado quando tecla é pressionada.</td>
+              <td>maioria</td>
+            </tr>
+            <tr>
+              <th>onkeypress</th>
+              <td>teclado</td>
+              <td>Disparado quando tecla é pressionada e liberada.</td>
+              <td>maioria</td>
+            </tr>
+            <tr>
+              <th>onkeyup</th>
+              <td>teclado</td>
+              <td>Disparado quando tecla pressionada é liberada.</td>
+              <td>maioria</td>
+            </tr>
+            <tr>
+              <th>DOMContentLoaded</th>
+              <td>dom</td>
+              <td>Disparado quando o elemento dom é carregado</td>
+              <td>dom</td>
+            </tr>
+          </tbody>
         </table>
       </SectionCmp>
 
