@@ -11,7 +11,6 @@ interface codeCmpProps {
 }
 
 export default function CodeCmp(props: codeCmpProps) {
-
   const codeString = props.children
   const [copy, setCopy] = useState(false)
 

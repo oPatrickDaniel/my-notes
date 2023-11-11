@@ -339,14 +339,17 @@ export default function ComponentName() {
 
       <SectionCmp title="Fonte">
         <p>
-          O elemento "font" pode ser usado para criar várias modificações no texto.
-          Algumas abaixo.</p>
-        <p>É possível utilizar uma fonte externa com CSS. Para isso, deve-se colar
-          o código: &lt;link rel="preconnect" href="linkDaFonte"&gt; no &lt;head&gt;
-          da página.
+          O elemento &quot;font&quot; pode ser usado para criar várias
+          modificações no texto. Algumas abaixo.
         </p>
-        <p>PS: as fontes sem serifa possuem a mesma largura no tamanho de todas as
-          letras, diferente das com serifa.
+        <p>
+          É possível utilizar uma fonte externa com CSS. Para isso, deve-se
+          colar o código: &lt;link rel=&quot;preconnect&quot;
+          href=&quot;linkDaFonte&quot;&gt; no &lt;head&gt; da página.
+        </p>
+        <p>
+          PS: as fontes sem serifa possuem a mesma largura no tamanho de todas
+          as letras, diferente das com serifa.
         </p>
         <table>
           <tr>
@@ -367,12 +370,14 @@ export default function ComponentName() {
           </tr>
           <tr>
             <td>font-weight</td>
-            <td>muda a "grossura" do texto (bold, negrito, etc.)</td>
+            <td>muda a &quot;grossura&quot; do texto (bold, negrito, etc.)</td>
           </tr>
           <tr>
             <td>font-variant</td>
-            <td>Transforma as letras do texto em maiúsculas, destacando as que
-              já eram desse tipo</td>
+            <td>
+              Transforma as letras do texto em maiúsculas, destacando as que já
+              eram desse tipo
+            </td>
           </tr>
         </table>
       </SectionCmp>
@@ -381,8 +386,8 @@ export default function ComponentName() {
         <p>
           O link possui 4 estados e estes podem ser modificados separadamente:
           link não visitado (link), link visitado (visited), mouse (hover) e
-          clicado (active). Para acessar esses atributos especiais, devemos
-          usar um ".atributo" após declarar a tag.
+          clicado (active). Para acessar esses atributos especiais, devemos usar
+          um &quot;.atributo&quot; após declarar a tag.
         </p>
         <p>
           PS: a tag cursor muda o formato do cursor - muda o formato da seta ao
@@ -400,10 +405,11 @@ a:visited {
       </SectionCmp>
 
       <SectionCmp title="Listas">
-        <p>O elemento "list" pode ser usado para criar várias modificações nas
-          listas. Usando a tag list-style é possível mudar tanto a formatação do
-          texto quanto as bolinhas (varias opções de modificação na descrição da
-          videoaula).
+        <p>
+          O elemento &quot;list&quot; pode ser usado para criar várias
+          modificações nas listas. Usando a tag list-style é possível mudar
+          tanto a formatação do texto quanto as bolinhas (varias opções de
+          modificação na descrição da videoaula).
         </p>
         <table>
           <tr>
@@ -412,8 +418,10 @@ a:visited {
           </tr>
           <tr>
             <td>list-style-type</td>
-            <td>Especifica o tipo de marcador de lista a ser usado (por exemplo,
-              círculos, números, etc.)</td>
+            <td>
+              Especifica o tipo de marcador de lista a ser usado (por exemplo,
+              círculos, números, etc.)
+            </td>
           </tr>
           <tr>
             <td>list-style-image</td>
@@ -421,20 +429,25 @@ a:visited {
           </tr>
           <tr>
             <td>list-style-position</td>
-            <td>Especifica onde o marcador de lista deve ser colocado em relação
-              ao conteúdo da lista (por exemplo, dentro ou fora da caixa de conteúdo)</td>
+            <td>
+              Especifica onde o marcador de lista deve ser colocado em relação
+              ao conteúdo da lista (por exemplo, dentro ou fora da caixa de
+              conteúdo)
+            </td>
           </tr>
         </table>
       </SectionCmp>
 
       <SectionCmp title="Display">
-        <p>A propriedade display é responsável pela maneira como os elementos são
-          mostrados na tela. Existem 3 displays (fora flex e grid): block, inline
-          e inline-block.
+        <p>
+          A propriedade display é responsável pela maneira como os elementos são
+          mostrados na tela. Existem 3 displays (fora flex e grid): block,
+          inline e inline-block.
         </p>
-        <p>Diferenças: o display inline não pode ter sua altura e largura mudada;
+        <p>
+          Diferenças: o display inline não pode ter sua altura e largura mudada;
           um elemento block não precisa estar dentro de um parágrafo. Para mudar
-          isso, deve-se usar a tag "display".
+          isso, deve-se usar a tag &quot;display&quot;.
         </p>
         <table>
           <tr>
@@ -443,24 +456,32 @@ a:visited {
           </tr>
           <tr>
             <td>display: block;</td>
-            <td>Faz com que o elemento seja exibido como um bloco, ocupando toda a
-              largura disponível e empurrando para baixo outros elementos</td>
+            <td>
+              Faz com que o elemento seja exibido como um bloco, ocupando toda a
+              largura disponível e empurrando para baixo outros elementos
+            </td>
           </tr>
           <tr>
             <td>display: inline;</td>
-            <td>Faz com que o elemento seja exibido como uma linha, ocupando o mínimo espaço necessário
-              e permitindo que outros elementos sejam exibidos ao lado dele</td>
+            <td>
+              Faz com que o elemento seja exibido como uma linha, ocupando o
+              mínimo espaço necessário e permitindo que outros elementos sejam
+              exibidos ao lado dele
+            </td>
           </tr>
           <tr>
             <td>display: inline-block;</td>
-            <td>Faz com que o elemento seja exibido como um bloco em linha, permitindo que outros
-              elementos sejam exibidos ao lado dele na mesma linha, mas ainda mantendo as propriedades
-              de um bloco</td>
+            <td>
+              Faz com que o elemento seja exibido como um bloco em linha,
+              permitindo que outros elementos sejam exibidos ao lado dele na
+              mesma linha, mas ainda mantendo as propriedades de um bloco
+            </td>
           </tr>
           <tr>
             <td>display: none;</td>
-            <td>Faz com que o elemento seja completamente removido da página e não ocupe nenhum espaço,
-              tornando-o invisível
+            <td>
+              Faz com que o elemento seja completamente removido da página e não
+              ocupe nenhum espaço, tornando-o invisível
             </td>
           </tr>
         </table>
@@ -468,10 +489,13 @@ a:visited {
 
       <SectionCmp title="Como ocultar uma div">
         <p>
-          Existem várias maneiras de ocultar uma div, mas essas são as três mais comuns: usando display, o visible ou opacity.
+          Existem várias maneiras de ocultar uma div, mas essas são as três mais
+          comuns: usando display, o visible ou opacity.
         </p>
         <p>
-          Usando o "display: none" o todo o conteúdo é totalmente removido da página, assim ele não ocupará um espaço nem interage com o cliente.
+          Usando o &quot;display: none&quot; o todo o conteúdo é totalmente
+          removido da página, assim ele não ocupará um espaço nem interage com o
+          cliente.
         </p>
         <CodeCmp language="css">
           {`div {
@@ -479,7 +503,8 @@ a:visited {
 }`}
         </CodeCmp>
         <p>
-          Usando o "visibility: hidden;" a div ainda ocupa seu espaço, mas não interage com o cliente.
+          Usando o &quot;visibility: hidden;&quot; a div ainda ocupa seu espaço,
+          mas não interage com o cliente.
         </p>
         <CodeCmp language="css">
           {`div {
@@ -487,7 +512,8 @@ a:visited {
 }`}
         </CodeCmp>
         <p>
-          Por último, com o "opacity: 0;" a div continuará ocupando seu espaço e ainda pode interagir com o cliente.
+          Por último, com o &quot;opacity: 0;&quot; a div continuará ocupando
+          seu espaço e ainda pode interagir com o cliente.
         </p>
         <CodeCmp language="css">
           {`div {
@@ -498,7 +524,8 @@ a:visited {
 
       <SectionCmp title="Overflow">
         <p>
-          O overflow mostra elementos maiores que o espaço delimitado através do scroll.
+          O overflow mostra elementos maiores que o espaço delimitado através do
+          scroll.
         </p>
         <table>
           <tr>
@@ -511,29 +538,40 @@ a:visited {
           </tr>
           <tr>
             <td>overflow: hidden;</td>
-            <td>Oculta qualquer conteúdo que ultrapasse as bordas do elemento pai</td>
+            <td>
+              Oculta qualquer conteúdo que ultrapasse as bordas do elemento pai
+            </td>
           </tr>
           <tr>
             <td>overflow: scroll;</td>
-            <td>Exibe barras de rolagem para permitir que o usuário role o conteúdo que ultrapassa as
-              bordas do elemento pai(o scroll sempre fica visível em cima e em baixo)
+            <td>
+              Exibe barras de rolagem para permitir que o usuário role o
+              conteúdo que ultrapassa as bordas do elemento pai(o scroll sempre
+              fica visível em cima e em baixo)
             </td>
           </tr>
           <tr>
             <td>overflow: auto;</td>
-            <td>Exibe barras de rolagem somente quando necessário, com base no tamanho do conteúdo que
-              ultrapassa as bordas do elemento pai</td>
+            <td>
+              Exibe barras de rolagem somente quando necessário, com base no
+              tamanho do conteúdo que ultrapassa as bordas do elemento pai
+            </td>
           </tr>
         </table>
         <h4>Overflow-wrap</h4>
         <p>
-          Overflow-wrap cria uma quebra de linha quando um texto está prestes a exceder a largura do container. Caso não haja uma altura fixa ela pode aumentar o tamanho do container a fim de abrigar o texto.
+          Overflow-wrap cria uma quebra de linha quando um texto está prestes a
+          exceder a largura do container. Caso não haja uma altura fixa ela pode
+          aumentar o tamanho do container a fim de abrigar o texto.
         </p>
       </SectionCmp>
 
       <SectionCmp title="Alinhamento horizontal">
         <p>
-          É possível mudar o alinhamento horizontal de elementos de display block usando a tag "margin". Para elementos display inline e inline-block é necessário colocar o elemento em uma div e nela aplicar a tag "text-align".
+          É possível mudar o alinhamento horizontal de elementos de display
+          block usando a tag &quot;margin&quot;. Para elementos display inline e
+          inline-block é necessário colocar o elemento em uma div e nela aplicar
+          a tag &quot;text-align&quot;.
         </p>
         <CodeCmp language="css">
           {`.block {
@@ -548,7 +586,8 @@ div {
 
       <SectionCmp title="Position">
         <p>
-          O atributo position permite que elementos sejam mudados de posição na página se afetar o posicionamento de outros.
+          O atributo position permite que elementos sejam mudados de posição na
+          página se afetar o posicionamento de outros.
         </p>
         <table>
           <tr>
@@ -557,40 +596,59 @@ div {
           </tr>
           <tr>
             <td>position: static;</td>
-            <td>O position static é o padrão e faz com que os próximos elementos fiquem do lado ou abaixo do primeiro elemento (depende do display).</td>
+            <td>
+              O position static é o padrão e faz com que os próximos elementos
+              fiquem do lado ou abaixo do primeiro elemento (depende do
+              display).
+            </td>
           </tr>
           <tr>
             <td>position: relative;</td>
-            <td>Faz com que o posicionamento do elemento fique relativo ao elemento static, mas os
-              outros elementos mantém o posicionamento inicial como referencia</td>
+            <td>
+              Faz com que o posicionamento do elemento fique relativo ao
+              elemento static, mas os outros elementos mantém o posicionamento
+              inicial como referencia
+            </td>
           </tr>
           <tr>
             <td>position: absolute;</td>
-            <td>Faz com que o posicionamento do elemento fique relativo ao elemento pai que não seja
-              static, e os outros elementos perdem a referencia de posição dele</td>
+            <td>
+              Faz com que o posicionamento do elemento fique relativo ao
+              elemento pai que não seja static, e os outros elementos perdem a
+              referencia de posição dele
+            </td>
           </tr>
           <tr>
             <td>position: fixed;</td>
-            <td>Faz com que o posicionamento do elemento fique relativo ao display, permanecendo sempre
-              visível mesmo ao rolar a página</td>
+            <td>
+              Faz com que o posicionamento do elemento fique relativo ao
+              display, permanecendo sempre visível mesmo ao rolar a página
+            </td>
           </tr>
           <tr>
             <td>position: sticky;</td>
-            <td>Faz com que o posicionamento do elemento fique grudado em um posicionamento pre
-              definido, assim quando a pagina e rolada o elemento não se mexe</td>
+            <td>
+              Faz com que o posicionamento do elemento fique grudado em um
+              posicionamento pre definido, assim quando a pagina e rolada o
+              elemento não se mexe
+            </td>
           </tr>
         </table>
       </SectionCmp>
 
       <SectionCmp title="Float">
         <p>
-          O Float é uma propriedade semelhante ao display que permite manipular a direção de um elemento.
+          O Float é uma propriedade semelhante ao display que permite manipular
+          a direção de um elemento.
         </p>
         <p>
-          Semelhante ao float também existe a clear. Ela faz com que nenhum elemento flutue no lado selecionado: "clear: left;", "clear: right;" "clear: both;".
+          Semelhante ao float também existe a clear. Ela faz com que nenhum
+          elemento flutue no lado selecionado: &quot;clear: left;&quot;,
+          &quot;clear: right;&quot; &quot;clear: both;&quot;.
         </p>
         <p>
-          PS: caso um elemento fique maior que um div o "overflow: auto;" irá consertar a formatação.
+          PS: caso um elemento fique maior que um div o &quot;overflow:
+          auto;&quot; irá consertar a formatação.
         </p>
         <CodeCmp language="css">
           {`* {
@@ -602,12 +660,16 @@ div {
 
       <SectionCmp title="Alinhamento Vertical">
         <p>
-          Existem várias maneiras de fazer um alinhamento vertical. Abaixo 2 exemplos:
+          Existem várias maneiras de fazer um alinhamento vertical. Abaixo 2
+          exemplos:
         </p>
 
         <h4>Usando o text-align junto ao line-height:</h4>
         <p>
-          Ao utilizar o "text-align: center" junto ao line-height com a altura do elemento irá criar uma sensação de centralização. O problema desse método é que ele depende do conhecimento do tamanho da página e não é responsivo.
+          Ao utilizar o &quot;text-align: center&quot; junto ao line-height com
+          a altura do elemento irá criar uma sensação de centralização. O
+          problema desse método é que ele depende do conhecimento do tamanho da
+          página e não é responsivo.
         </p>
 
         <h4>Utilizando o position e o transformer:</h4>
@@ -633,7 +695,8 @@ p {
 
       <SectionCmp title="Viewport">
         <p>
-          Viewport é uma tag usada para criar Responsividade nas páginas HTML. Tag gerada automaticamente pelo VS Code em páginas HTML5.
+          Viewport é uma tag usada para criar Responsividade nas páginas HTML.
+          Tag gerada automaticamente pelo VS Code em páginas HTML5.
         </p>
         <CodeCmp language="html">
           {`<meta name="viewport" content="width=device-width, initial-scale=1.0">`}
@@ -642,9 +705,9 @@ p {
 
       <SectionCmp title="Media Queries">
         <p>
-          Os media Queries servem para dar comportamentos diferentes a uma página
-          a partir do tamanho do display. Para usá-los, devemos criar ao fim do
-          código um @media screen and (Condição, tamanho) &lcub; &rcub;
+          Os media Queries servem para dar comportamentos diferentes a uma
+          página a partir do tamanho do display. Para usá-los, devemos criar ao
+          fim do código um @media screen and (Condição, tamanho) &lcub; &rcub;
         </p>
         <CodeCmp language="css">
           {`@media (max-width: 600px) {
@@ -657,15 +720,24 @@ p {
 
       <SectionCmp title="BEM">
         <p>
-          O BEM (Bloco, Elemento, Modificador) é uma metodologia CSS criada para padronizar projetos HTML assim melhorando a semântica e facilitando a leitura e manutenção dos códigos.
+          O BEM (Bloco, Elemento, Modificador) é uma metodologia CSS criada para
+          padronizar projetos HTML assim melhorando a semântica e facilitando a
+          leitura e manutenção dos códigos.
         </p>
         <p>
-          Mais detalhes: <a href="https://desenvolvimentoparaweb.com/css/bem/">desenvolvimentoparaweb.com</a>
+          Mais detalhes:{' '}
+          <a href="https://desenvolvimentoparaweb.com/css/bem/">
+            desenvolvimentoparaweb.com
+          </a>
         </p>
       </SectionCmp>
 
       <SectionCmp title="Pseudo Elementos">
-        <p>Pseudo elementos são comandos que permitem mudar apenas uma parte do elemento. Para usar pseudo elementos usamos 2 pontos após a tag. ex: "p::first-line{ }"</p>
+        <p>
+          Pseudo elementos são comandos que permitem mudar apenas uma parte do
+          elemento. Para usar pseudo elementos usamos 2 pontos após a tag. ex:
+          &quot;p::first-line&#123;&#125;&quot;
+        </p>
         <table>
           <thead>
             <tr>
@@ -684,11 +756,17 @@ p {
             </tr>
             <tr>
               <td>::before</td>
-              <td>Permite que um elemento seja adicionado antes. (pode ser usado junto ao li para mudar o estilo)</td>
+              <td>
+                Permite que um elemento seja adicionado antes. (pode ser usado
+                junto ao li para mudar o estilo)
+              </td>
             </tr>
             <tr>
               <td>::after</td>
-              <td>Permite que um elemento seja adicionado depois. (pode ser usado junto ao li para mudar o estilo)</td>
+              <td>
+                Permite que um elemento seja adicionado depois. (pode ser usado
+                junto ao li para mudar o estilo)
+              </td>
             </tr>
             <tr>
               <td>::selection</td>
@@ -699,7 +777,12 @@ p {
       </SectionCmp>
 
       <SectionCmp title="Seletores">
-        <p>Seletores são maneiras de chamar um elemento no CSS. Podemos usar 2 ou mais seletores ao mesmo tempo se os separarmos por vírgula. Se os seletores forem separados por um espaço o CSS será aplicado no segundo seletor que for filho do primeiro.</p>
+        <p>
+          Seletores são maneiras de chamar um elemento no CSS. Podemos usar 2 ou
+          mais seletores ao mesmo tempo se os separarmos por vírgula. Se os
+          seletores forem separados por um espaço o CSS será aplicado no segundo
+          seletor que for filho do primeiro.
+        </p>
         <table>
           <thead>
             <tr>
@@ -718,21 +801,31 @@ p {
             </tr>
             <tr>
               <td>.</td>
-              <td>Seleciona todos os elementos com a classe especificada (ex: .destaque)</td>
+              <td>
+                Seleciona todos os elementos com a classe especificada (ex:
+                .destaque)
+              </td>
             </tr>
             <tr>
               <td>&gt;</td>
-              <td>Seleciona todos os elementos filhos diretos do elemento pai especificado (ex: ul &gt;
-                li)</td>
+              <td>
+                Seleciona todos os elementos filhos diretos do elemento pai
+                especificado (ex: ul &gt; li)
+              </td>
             </tr>
             <tr>
               <td>+</td>
-              <td>Seleciona o elemento imediatamente seguinte ao elemento especificado (ex: h1 + p)
+              <td>
+                Seleciona o elemento imediatamente seguinte ao elemento
+                especificado (ex: h1 + p)
               </td>
             </tr>
             <tr>
               <td>~</td>
-              <td>Seleciona todos o elementos seguintes ao elemento especificado (ex: h1 ~ p)</td>
+              <td>
+                Seleciona todos o elementos seguintes ao elemento especificado
+                (ex: h1 ~ p)
+              </td>
             </tr>
 
             <tr>
@@ -740,33 +833,53 @@ p {
               <td>Seleciona todos o elementos que possuam esse atributo</td>
             </tr>
             <tr>
-              <td>[atributo="valor"]</td>
-              <td>Seleciona todos o elementos que tenham um atributo com esse valor</td>
+              <td>[atributo=&quot;valor&quot;]</td>
+              <td>
+                Seleciona todos o elementos que tenham um atributo com esse
+                valor
+              </td>
             </tr>
             <tr>
-              <td>[atributo~="palavra"]</td>
-              <td>Seleciona todos o elementos que tenham "palavra" como parte do valor </td>
+              <td>[atributo~=&quot;palavra&quot;]</td>
+              <td>
+                Seleciona todos o elementos que tenham &quot;palavra&quot; como
+                parte do valor{' '}
+              </td>
             </tr>
             <tr>
-              <td>[atributo^="p"]</td>
-              <td>Seleciona todos o elementos que o valor começa em "p" </td>
+              <td>[atributo^=&quot;p&quot;]</td>
+              <td>
+                Seleciona todos o elementos que o valor começa em &quot;p&quot;{' '}
+              </td>
             </tr>
             <tr>
-              <td>[atributo#="p"]</td>
-              <td>Seleciona todos o elementos que o valor termina em "p" </td>
+              <td>[atributo#=&quot;p&quot;]</td>
+              <td>
+                Seleciona todos o elementos que o valor termina em &quot;p&quot;{' '}
+              </td>
             </tr>
             <tr>
-              <td>[atributo*="alav"]</td>
-              <td>Seleciona todos o elementos que o valor possua a sequencia "alav" de "palavra por exemplo" </td>
+              <td>[atributo*=&quot;alav&quot;]</td>
+              <td>
+                Seleciona todos o elementos que o valor possua a sequencia
+                &quot;alav&quot; de &quot;palavra por exemplo&quot;{' '}
+              </td>
             </tr>
           </tbody>
         </table>
       </SectionCmp>
 
       <SectionCmp title="Pseudo Classes">
-        <p>Pseudo classes são maneiras de selecionar um elemento a partir de um estado ou característica dele. Exemplos abaixo:</p>
+        <p>
+          Pseudo classes são maneiras de selecionar um elemento a partir de um
+          estado ou característica dele. Exemplos abaixo:
+        </p>
 
-        <p>O nth-child() começa em 1; um valor terminado em n(2n) pegará os valores divisíveis por esse; valores podem ser usado junto a soma/subtração; odd/even podem ser passados como valores (ímpar, par)</p>
+        <p>
+          O nth-child() começa em 1; um valor terminado em n(2n) pegará os
+          valores divisíveis por esse; valores podem ser usado junto a
+          soma/subtração; odd/even podem ser passados como valores (ímpar, par)
+        </p>
 
         <table>
           <thead>
@@ -782,7 +895,9 @@ p {
             </tr>
             <tr>
               <td>:hover</td>
-              <td>Seleciona um elemento quando o cursor do mouse passa sobre ele.</td>
+              <td>
+                Seleciona um elemento quando o cursor do mouse passa sobre ele.
+              </td>
             </tr>
             <tr>
               <td>:active</td>
@@ -803,25 +918,35 @@ p {
             </tr>
             <tr>
               <td>:nth-child()</td>
-              <td>Seleciona um filho específico de um elemento pai, com base em sua posição. Você pode
-                especificar uma
-                fórmula matemática para selecionar um padrão de filhos, como "2n+1" ou "3n-1".</td>
+              <td>
+                Seleciona um filho específico de um elemento pai, com base em
+                sua posição. Você pode especificar uma fórmula matemática para
+                selecionar um padrão de filhos, como &quot;2n+1&quot; ou
+                &quot;3n-1&quot;.
+              </td>
             </tr>
             <tr>
               <td>:checked</td>
-              <td>Seleciona elementos de formulário (como caixas de seleção e botões de rádio) que
-                foram marcados como
-                selecionados.</td>
+              <td>
+                Seleciona elementos de formulário (como caixas de seleção e
+                botões de rádio) que foram marcados como selecionados.
+              </td>
             </tr>
           </tbody>
         </table>
       </SectionCmp>
 
       <SectionCmp title="Função Calc">
-        <p>O calc no CSS pode ser usado para criar valores de elementos baseados
-          em porcentagem. ex: "*&lcub;width: calc(100% - 300px)&rcub;".</p>
-        <p>Obs: ao mudar o display de uma div para inline-block ela ganha um espaçamento de 4px.</p>
-        <CodeCmp language='css'>
+        <p>
+          O calc no CSS pode ser usado para criar valores de elementos baseados
+          em porcentagem. ex: &quot;*&lcub;width: calc(100% -
+          300px)&rcub;&quot;.
+        </p>
+        <p>
+          Obs: ao mudar o display de uma div para inline-block ela ganha um
+          espaçamento de 4px.
+        </p>
+        <CodeCmp language="css">
           {`* {
   width: calc(100% - 300px)";
 }`}
@@ -829,7 +954,10 @@ p {
       </SectionCmp>
 
       <SectionCmp title="Transformações">
-        <p>As transformações são usadas para modificar o formato, local ou tamanho de um elemento. Abaixo alguns exemplos:</p>
+        <p>
+          As transformações são usadas para modificar o formato, local ou
+          tamanho de um elemento. Abaixo alguns exemplos:
+        </p>
         <table>
           <thead>
             <tr>
@@ -840,11 +968,17 @@ p {
           <tbody>
             <tr>
               <td>translate()</td>
-              <td>move um elemento em relação ao seu ponto de origem, na horizontal e/ou vertical</td>
+              <td>
+                move um elemento em relação ao seu ponto de origem, na
+                horizontal e/ou vertical
+              </td>
             </tr>
             <tr>
               <td>rotate()</td>
-              <td>gira um elemento em sentido horário ou anti-horário. O valor deve ser declarado com deg no final</td>
+              <td>
+                gira um elemento em sentido horário ou anti-horário. O valor
+                deve ser declarado com deg no final
+              </td>
             </tr>
             <tr>
               <td>scale(a,l)</td>
@@ -852,8 +986,10 @@ p {
             </tr>
             <tr>
               <td>skew()</td>
-              <td>inclina um elemento em relação a um eixo, na horizontal e/ou vertical(formato de um
-                paralelogramo)</td>
+              <td>
+                inclina um elemento em relação a um eixo, na horizontal e/ou
+                vertical(formato de um paralelogramo)
+              </td>
             </tr>
             <tr>
               <td>perspective()</td>
@@ -892,18 +1028,28 @@ p {
       </SectionCmp>
 
       <SectionCmp title="Compatibilidade de navegadores">
-        <p>existem algumas funções do CSS3 que não funcionam em versões antigas
+        <p>
+          existem algumas funções do CSS3 que não funcionam em versões antigas
           dos navegadores. Para deixar os códigos compatíveis com navegadores
           antigos devemos utilizar prefixos(códigos especiais que ajudam na
-          compatibilidade). Para checar a necessidade de prefixos podemos usar
-          o site <a href="https://shouldiprefix.com" className='text-red-600'>Shouldiprefix.com</a> ou
-          o <a href="https://caniuse.com" className='text-red-600'>Caniuse.com</a></p>
+          compatibilidade). Para checar a necessidade de prefixos podemos usar o
+          site{' '}
+          <a href="https://shouldiprefix.com" className="text-red-600">
+            Shouldiprefix.com
+          </a>{' '}
+          ou o{' '}
+          <a href="https://caniuse.com" className="text-red-600">
+            Caniuse.com
+          </a>
+        </p>
       </SectionCmp>
 
       <SectionCmp title="Variáveis em CSS">
-        <p>e possível usar variáveis no css. com elas podemos salvar dados para
+        <p>
+          e possível usar variáveis no css. com elas podemos salvar dados para
           usos futuros. para isso devemos criar um seletor root(:root) e dentro
-          dele declarar as variáveis.</p>
+          dele declarar as variáveis.
+        </p>
         <CodeCmp language="css">
           {`:root {
   --amareloClaro: rgb(255, 255, 110);
@@ -913,14 +1059,22 @@ p {
       </SectionCmp>
 
       <SectionCmp title="FlexBox">
-        <p>O flex box é um e um conceito do css que é usado para manipular o posicionamento de elementos com
-          mais liberdade. com ele podemos alinhar qualquer elemento nas nove direções de uma div.</p>
+        <p>
+          O flex box é um e um conceito do css que é usado para manipular o
+          posicionamento de elementos com mais liberdade. com ele podemos
+          alinhar qualquer elemento nas nove direções de uma div.
+        </p>
         {/* <img src="../images/flexbox.png" alt="posições flexbox"> */}
 
         <h4>Flex Direction</h4>
 
-        <p>Para usar o FlexBox o primeiro passo e declarar o elemento pai como display flex.</p>
-        <p>O flex-direction dita a direção que os elementos da pagina sequem:</p>
+        <p>
+          Para usar o FlexBox o primeiro passo e declarar o elemento pai como
+          display flex.
+        </p>
+        <p>
+          O flex-direction dita a direção que os elementos da pagina sequem:
+        </p>
         <table>
           <thead>
             <tr>
@@ -931,46 +1085,62 @@ p {
           <tbody>
             <tr>
               <td>row</td>
-              <td>Itens são posicionados da esquerda para direita na linha principal.(o padrão)</td>
+              <td>
+                Itens são posicionados da esquerda para direita na linha
+                principal.(o padrão)
+              </td>
             </tr>
             <tr>
               <td>row-reverse</td>
-              <td>Itens são posicionados da direita para esquerda na linha principal.</td>
+              <td>
+                Itens são posicionados da direita para esquerda na linha
+                principal.
+              </td>
             </tr>
             <tr>
               <td>column</td>
-              <td>Itens são posicionados de cima para baixo na linha transversal.</td>
+              <td>
+                Itens são posicionados de cima para baixo na linha transversal.
+              </td>
             </tr>
             <tr>
               <td>column-reverse</td>
-              <td>Itens são posicionados de baixo para cima na linha transversal.</td>
+              <td>
+                Itens são posicionados de baixo para cima na linha transversal.
+              </td>
             </tr>
           </tbody>
         </table>
 
         <h4>Wrap</h4>
-        <p>Uma característica importante do Flexbox é conseguir manter a distribuição de elemento na pagina
-          mesmo que valores como height e width sejam declarados, mas caso esse não seja o objetivo
-          podemos usar o wrap. Através do wrap(proteger) ele vai tentar manter os valores declarados
-          como height e width e cria uma quebra de linhas. Também e possível mudar a ordem da linhas
-          com o Wap-reverse</p>
-        <p>Essa proteção de altura pode ser maior que seu elemento pai, como exemplo, então ele deve ser
-          usado com atenção.</p>
-        <CodeCmp language="css">
-          {`flex-wrap: wrap-reverse`}
-        </CodeCmp>
+        <p>
+          Uma característica importante do Flexbox é conseguir manter a
+          distribuição de elemento na pagina mesmo que valores como height e
+          width sejam declarados, mas caso esse não seja o objetivo podemos usar
+          o wrap. Através do wrap(proteger) ele vai tentar manter os valores
+          declarados como height e width e cria uma quebra de linhas. Também e
+          possível mudar a ordem da linhas com o Wap-reverse
+        </p>
+        <p>
+          Essa proteção de altura pode ser maior que seu elemento pai, como
+          exemplo, então ele deve ser usado com atenção.
+        </p>
+        <CodeCmp language="css">{`flex-wrap: wrap-reverse`}</CodeCmp>
 
         <h4>Flex Flow</h4>
 
-        <p>o flex-flow e uma união do flex-direction como o flex-wrap. Para usa-lo primeiro declaramos o
-          valor do flex-direction e e seguida com um espaço o wrap</p>
-        <CodeCmp language="css">
-          {`flex-flow: column wrap-reverse`}
-        </CodeCmp>
+        <p>
+          o flex-flow e uma união do flex-direction como o flex-wrap. Para
+          usa-lo primeiro declaramos o valor do flex-direction e e seguida com
+          um espaço o wrap
+        </p>
+        <CodeCmp language="css">{`flex-flow: column wrap-reverse`}</CodeCmp>
 
         <h4>Justify Content</h4>
-        <p>O Justify-content permite manipular os elementos horizontalmente os alinhando com a
-          direta, esquerda ou centro da página</p>
+        <p>
+          O Justify-content permite manipular os elementos horizontalmente os
+          alinhando com a direta, esquerda ou centro da página
+        </p>
         <table>
           <thead>
             <tr>
@@ -1001,15 +1171,19 @@ p {
             </tr>
             <tr>
               <td>space-evenly</td>
-              <td>Distribui os itens com espaço igual entre eles e ao redor deles</td>
+              <td>
+                Distribui os itens com espaço igual entre eles e ao redor deles
+              </td>
             </tr>
           </tbody>
         </table>
 
         <h4>Align Items</h4>
 
-        <p>O align-items permite manipular os elementos verticalmente, permitindo alinhamentos com o topo,
-          fundo ou meio da pagina</p>
+        <p>
+          O align-items permite manipular os elementos verticalmente, permitindo
+          alinhamentos com o topo, fundo ou meio da pagina
+        </p>
         <table>
           <thead>
             <tr>
@@ -1020,15 +1194,23 @@ p {
           <tbody>
             <tr>
               <td>stretch</td>
-              <td>Estica os itens para preencher o container flexível(padrão)</td>
+              <td>
+                Estica os itens para preencher o container flexível(padrão)
+              </td>
             </tr>
             <tr>
               <td>flex-start</td>
-              <td>Alinha os itens no começo do eixo transversal do container flexível</td>
+              <td>
+                Alinha os itens no começo do eixo transversal do container
+                flexível
+              </td>
             </tr>
             <tr>
               <td>flex-end</td>
-              <td>Alinha os itens no final do eixo transversal do container flexível</td>
+              <td>
+                Alinha os itens no final do eixo transversal do container
+                flexível
+              </td>
             </tr>
             <tr>
               <td>center</td>
@@ -1043,9 +1225,11 @@ p {
 
         <h4>Align Content</h4>
 
-        <p>O Align-content funciona de forma semelhante ao align-items, com a diferença que ele muda o
-          posicionamento das linhas do wrap, assim as linhas ficam posicionadas no começo, fim ou meio da
-          pagina.</p>
+        <p>
+          O Align-content funciona de forma semelhante ao align-items, com a
+          diferença que ele muda o posicionamento das linhas do wrap, assim as
+          linhas ficam posicionadas no começo, fim ou meio da pagina.
+        </p>
         <table>
           <thead>
             <tr>
@@ -1056,19 +1240,31 @@ p {
           <tbody>
             <tr>
               <td>stretch</td>
-              <td>Estica as linhas de itens para preencher todo o eixo transversal do container.</td>
+              <td>
+                Estica as linhas de itens para preencher todo o eixo transversal
+                do container.
+              </td>
             </tr>
             <tr>
               <td>flex-start</td>
-              <td>Alinha as linhas de itens no começo do eixo transversal do container.</td>
+              <td>
+                Alinha as linhas de itens no começo do eixo transversal do
+                container.
+              </td>
             </tr>
             <tr>
               <td>flex-end</td>
-              <td>Alinha as linhas de itens no final do eixo transversal do container.</td>
+              <td>
+                Alinha as linhas de itens no final do eixo transversal do
+                container.
+              </td>
             </tr>
             <tr>
               <td>center</td>
-              <td>Centraliza as linhas de itens verticalmente no container flexível.</td>
+              <td>
+                Centraliza as linhas de itens verticalmente no container
+                flexível.
+              </td>
             </tr>
             <tr>
               <td>space-between</td>
@@ -1076,24 +1272,32 @@ p {
             </tr>
             <tr>
               <td>space-around</td>
-              <td>Distribui as linhas de itens com espaço igual ao redor delas.</td>
+              <td>
+                Distribui as linhas de itens com espaço igual ao redor delas.
+              </td>
             </tr>
           </tbody>
         </table>
 
         <h4>Ordem</h4>
-        <p>O "ordem" permite que a ordem de elementos seja alternada apenas pelo css. por padrão o seu valor
-          é 0, para alterar a ordem dos elementos devemos aumentar o valor para que ele seja avançado e
-          diminuir para que ele transcenda</p>
-        <CodeCmp language="css">{`.yellow {
+        <p>
+          O &quot;ordem&quot; permite que a ordem de elementos seja alternada
+          apenas pelo css. por padrão o seu valor é 0, para alterar a ordem dos
+          elementos devemos aumentar o valor para que ele seja avançado e
+          diminuir para que ele transcenda
+        </p>
+        <CodeCmp language="css">
+          {`.yellow {
   order: 1;
 }`}
         </CodeCmp>
 
         <h4>Align Self</h4>
 
-        <p>O align-self funciona igual ao align-itens e recebe os mesmos valores, porem ele afeta apenas um
-          elemento</p>
+        <p>
+          O align-self funciona igual ao align-itens e recebe os mesmos valores,
+          porem ele afeta apenas um elemento
+        </p>
 
         <CodeCmp language="css">
           {`.yellow {
@@ -1103,12 +1307,19 @@ p {
 
         <h4>Grow/Shrink</h4>
 
-        <p>o flex grow e flex Shrink servem para modificar do tamanho de elementos em relação ao container.
+        <p>
+          o flex grow e flex Shrink servem para modificar do tamanho de
+          elementos em relação ao container.
         </p>
-        <p>o shrink(diminuir) recebe por padrão 1 o que o permite encolher, mas alterando esse valor para 0
-          esse perde essa capacidade</p>
-        <p> O grow(aumentar) recebe por padrão 0, o que o impede de crescer, mas ao alterar esse valor ele
-          não so pode crescer como ao usar 2, 3 como valor ele pode duplicar ou triplicar o seu tamanho
+        <p>
+          o shrink(diminuir) recebe por padrão 1 o que o permite encolher, mas
+          alterando esse valor para 0 esse perde essa capacidade
+        </p>
+        <p>
+          {' '}
+          O grow(aumentar) recebe por padrão 0, o que o impede de crescer, mas
+          ao alterar esse valor ele não so pode crescer como ao usar 2, 3 como
+          valor ele pode duplicar ou triplicar o seu tamanho
         </p>
         <CodeCmp language="css">
           {`.yellow {
@@ -1119,25 +1330,37 @@ p {
       </SectionCmp>
 
       <SectionCmp title="Display Grid">
-        <p>O grid é uma estrutura do css semelhante ao flex-box, porem que divide o conteúdo da pagina em
-          linhas e colunas. Com ele podemos criar estruturas semelhantes ao table.</p>
+        <p>
+          O grid é uma estrutura do css semelhante ao flex-box, porem que divide
+          o conteúdo da pagina em linhas e colunas. Com ele podemos criar
+          estruturas semelhantes ao table.
+        </p>
 
         <h4>Grid Template</h4>
 
-        <p>com o "template" podemos modificar o númeno de linhas e coluna e também o seu tamanho. Para
-          declarar a quantidade de colunas usamos o grid-template-column e para declarar as linhas usamos
-          grid-template-rows.</p>
-        <p>cada valor declarado no grid-template ira representar uma linha ou coluna. Além das unidade de
-          medida comuns do css o grid também aceita medias frações(fr) unidade de medida exclusiva deste
-          e também "auto" que divide igualmente todo o espaço disponível.</p>
+        <p>
+          com o &quot;template&quot; podemos modificar o númeno de linhas e
+          coluna e também o seu tamanho. Para declarar a quantidade de colunas
+          usamos o grid-template-column e para declarar as linhas usamos
+          grid-template-rows.
+        </p>
+        <p>
+          cada valor declarado no grid-template ira representar uma linha ou
+          coluna. Além das unidade de medida comuns do css o grid também aceita
+          medias frações(fr) unidade de medida exclusiva deste e também
+          &quot;auto&quot; que divide igualmente todo o espaço disponível.
+        </p>
         <CodeCmp language="css">
           {`div {
   grid-template-rows: 1rw 1em;
   grid-template-columns: 1fr 20px auto;
 }`}
         </CodeCmp>
-        <p>Podemos usar apenas "grid-template" para unificar linhas e colunas. Nesse modelo os valores das
-          e linhas são separados por uma "/", na ordem "linha / colunas".</p>
+        <p>
+          Podemos usar apenas &quot;grid-template&quot; para unificar linhas e
+          colunas. Nesse modelo os valores das e linhas são separados por uma
+          &quot;/&quot;, na ordem &quot;linha / colunas&quot;.
+        </p>
         <CodeCmp language="css">
           {`div {
   grid-template: 1rw 1em / 1fr 20px auto;
@@ -1146,9 +1369,12 @@ p {
 
         <h4>Grid Gap</h4>
 
-        <p>O gap cria um espaçamento entre as linhas e colunas do grid (semelhante ao padding). Para o
-          espaçamento entre as linhas usamos row-gap e entre colunas usamos column-gap. Caso o
-          valor das colunas e linhas seja igual podemos declarar apenas com grid-gap.</p>
+        <p>
+          O gap cria um espaçamento entre as linhas e colunas do grid
+          (semelhante ao padding). Para o espaçamento entre as linhas usamos
+          row-gap e entre colunas usamos column-gap. Caso o valor das colunas e
+          linhas seja igual podemos declarar apenas com grid-gap.
+        </p>
         <CodeCmp language="css">
           {`div {
   gap: 2px;
@@ -1157,9 +1383,12 @@ p {
 
         <h4>Justify e Align Items</h4>
 
-        <p>O Justify itens e o Align Items funcionam de forma semelhante ao flex-box recebendo os mesmos
-          métodos. Com eles podemos modificar o posicionamento horizontal e vertical dos elementos em
-          relação as linhas e colunas do grid.</p>
+        <p>
+          O Justify itens e o Align Items funcionam de forma semelhante ao
+          flex-box recebendo os mesmos métodos. Com eles podemos modificar o
+          posicionamento horizontal e vertical dos elementos em relação as
+          linhas e colunas do grid.
+        </p>
         <table>
           <thead>
             <tr>
@@ -1185,9 +1414,12 @@ p {
 
         <h4>Justify e Align Content</h4>
 
-        <p>O Justify e Align Content são semelhantes ao Justify-itens porem possuem uma grande diferença. em
-          quanto o Justify-itens alinha o elemento em relação ao grid, o Justify-itens alinha o grid em
-          relação ao container.</p>
+        <p>
+          O Justify e Align Content são semelhantes ao Justify-itens porem
+          possuem uma grande diferença. em quanto o Justify-itens alinha o
+          elemento em relação ao grid, o Justify-itens alinha o grid em relação
+          ao container.
+        </p>
         <table>
           <tbody>
             <tr>
@@ -1212,17 +1444,25 @@ p {
             </tr>
             <tr>
               <td>space-evenly</td>
-              <td>Distribui os itens com espaço igual entre eles e ao redor deles</td>
+              <td>
+                Distribui os itens com espaço igual entre eles e ao redor deles
+              </td>
             </tr>
           </tbody>
         </table>
 
         <h4>Grid Template Areas</h4>
 
-        <p>O Grid area permite reorganizar os elementos de forma independente. Ao declara-lo
-          usamos repetições dos elementos selecionados para redistribui-los</p>
-        <p>uma maneira de fazer isso seria declarando um "grid-area" em seus elementos filhos e declarar um
-          "grid-template-areas" no elemento pai</p>
+        <p>
+          O Grid area permite reorganizar os elementos de forma independente. Ao
+          declara-lo usamos repetições dos elementos selecionados para
+          redistribui-los
+        </p>
+        <p>
+          uma maneira de fazer isso seria declarando um &quot;grid-area&quot; em
+          seus elementos filhos e declarar um &quot;grid-template-areas&quot; no
+          elemento pai
+        </p>
         <CodeCmp language="css">
           {`div {
   grid-template-areas:
@@ -1241,10 +1481,13 @@ p {
 
         <h4>Grid Column</h4>
 
-        <p>O grid column indica onde uma coluna começa e termina. Para indicar o começo usamos o
-          grid-column-start e para indicar o fim usamos o grid-column-end. O valor do grid indica o inicio
-          de uma linha, então caso o objetivo seja preencher totalmente um bloco o valor declarado deve
-          ser o do fim da coluna</p>
+        <p>
+          O grid column indica onde uma coluna começa e termina. Para indicar o
+          começo usamos o grid-column-start e para indicar o fim usamos o
+          grid-column-end. O valor do grid indica o inicio de uma linha, então
+          caso o objetivo seja preencher totalmente um bloco o valor declarado
+          deve ser o do fim da coluna
+        </p>
 
         <CodeCmp language="css">
           {`#water {
@@ -1252,8 +1495,11 @@ p {
   grid-column-end: 6;
 }`}
         </CodeCmp>
-        <p>Também podemos usar a forma abreviada do grid column para declarar os dois valores juntos,
-          seguindo a ordem grid-column-start, grid-column-end.</p>
+        <p>
+          Também podemos usar a forma abreviada do grid column para declarar os
+          dois valores juntos, seguindo a ordem grid-column-start,
+          grid-column-end.
+        </p>
         <CodeCmp language="css">
           {`#water {
   grid-column: 4 / span 2;
@@ -1261,16 +1507,23 @@ p {
         </CodeCmp>
 
         <h4>Grid Row</h4>
-        <p>O grid row tem o mesmo funcionamento do grid column, porem ele indica onde uma linha começa e
-          termina.</p>
-        <p> Para usar a forma abreviada do grid a ordem a seguir é grid-column-start, grid-column-end.</p>
-        <CodeCmp language="css">
-          {`grid-row: 3 / span 3`}
-        </CodeCmp>
+        <p>
+          O grid row tem o mesmo funcionamento do grid column, porem ele indica
+          onde uma linha começa e termina.
+        </p>
+        <p>
+          {' '}
+          Para usar a forma abreviada do grid a ordem a seguir é
+          grid-column-start, grid-column-end.
+        </p>
+        <CodeCmp language="css">{`grid-row: 3 / span 3`}</CodeCmp>
 
         <h4>Grid Area</h4>
-        <p>o grid area é uma forma de unir o grid row e o grid column. para o usar os valores são declarados
-          na ordem: grid-row-start, grid-column-start, grid-row-end, seguido por grid-column-end.</p>
+        <p>
+          o grid area é uma forma de unir o grid row e o grid column. para o
+          usar os valores são declarados na ordem: grid-row-start,
+          grid-column-start, grid-row-end, seguido por grid-column-end.
+        </p>
         <CodeCmp language="css">
           {`#water {
   grid-area: 1 / 2 / 4 / -1;
@@ -1279,9 +1532,13 @@ p {
       </SectionCmp>
 
       <SectionCmp title="CSS Animações">
-        <p>Para criar uma animação no Css nos precisamos declarar 3 elementos: o estado inicial do elemento,
-          o estado final, e o tempo de transição (podem haver outros estados). O estado inicial e final é
-          declarado ao criar a animação, já o tempo e declarado no elemento que sofre a transformação</p>
+        <p>
+          Para criar uma animação no Css nos precisamos declarar 3 elementos: o
+          estado inicial do elemento, o estado final, e o tempo de transição
+          (podem haver outros estados). O estado inicial e final é declarado ao
+          criar a animação, já o tempo e declarado no elemento que sofre a
+          transformação
+        </p>
 
         <CodeCmp language="css">
           {`@keyframes mudarCor {
@@ -1302,8 +1559,10 @@ p {
 
         <h4>animation-delay</h4>
 
-        <p>O animation-delay define um atraso antes que a animação comece a ser executada. Valores negativos
-          irão adiantar a animação</p>
+        <p>
+          O animation-delay define um atraso antes que a animação comece a ser
+          executada. Valores negativos irão adiantar a animação
+        </p>
         <CodeCmp language="css">
           {`.box {
   animation-name: mudarCor;
@@ -1314,8 +1573,11 @@ p {
 
         <h4>animation-iteration-count</h4>
 
-        <p>o animation-iteration-count define um número de vezes que para a animação repetir. ele também
-          aceita "infinite" como valor, que ira faze-lo sempre repetir</p>
+        <p>
+          o animation-iteration-count define um número de vezes que para a
+          animação repetir. ele também aceita &quot;infinite&quot; como valor,
+          que ira faze-lo sempre repetir
+        </p>
         <CodeCmp language="css">
           {`.box {
   animation-name: mudarCor;
@@ -1326,8 +1588,10 @@ p {
 
         <h4>animation-direction</h4>
 
-        <p>o animation-direction define a direção da animação, que pode ser para frente, para trás ou
-          alternando entre os dois.</p>
+        <p>
+          o animation-direction define a direção da animação, que pode ser para
+          frente, para trás ou alternando entre os dois.
+        </p>
         <table>
           <thead>
             <tr>
@@ -1338,29 +1602,39 @@ p {
           <tbody>
             <tr>
               <td>normal</td>
-              <td>Valor padrão da propriedade animation-direction. A animação é reproduzida no sentido
-                normal, do início ao fim.</td>
+              <td>
+                Valor padrão da propriedade animation-direction. A animação é
+                reproduzida no sentido normal, do início ao fim.
+              </td>
             </tr>
             <tr>
               <td>reverse</td>
-              <td>A animação é reproduzida no sentido inverso, do fim ao início.</td>
+              <td>
+                A animação é reproduzida no sentido inverso, do fim ao início.
+              </td>
             </tr>
             <tr>
               <td>alternate</td>
-              <td>A animação é reproduzida alternando entre o sentido normal e inverso. A primeira
-                iteração é reproduzida no sentido normal.</td>
+              <td>
+                A animação é reproduzida alternando entre o sentido normal e
+                inverso. A primeira iteração é reproduzida no sentido normal.
+              </td>
             </tr>
             <tr>
               <td>alternate-reverse</td>
-              <td>A animação é reproduzida alternando entre o sentido normal e inverso. A primeira
-                iteração é reproduzida no sentido inverso.</td>
+              <td>
+                A animação é reproduzida alternando entre o sentido normal e
+                inverso. A primeira iteração é reproduzida no sentido inverso.
+              </td>
             </tr>
           </tbody>
         </table>
 
         <h4>animation-fill-mode</h4>
-        <p>Define como os estilos aplicados à animação serão mantidos antes e depois da
-          execução da animação.(Forwards, Backwards e Both) </p>
+        <p>
+          Define como os estilos aplicados à animação serão mantidos antes e
+          depois da execução da animação.(Forwards, Backwards e Both){' '}
+        </p>
         <table>
           <thead>
             <tr>
@@ -1371,27 +1645,39 @@ p {
           <tbody>
             <tr>
               <td>forwards</td>
-              <td>Faz a animação permanecer no seu estado final (último quadro) após a sua execução.
-                Se houver mais de uma animação, a propriedade animation-fill-mode deve ser definida
-                separadamente para cada uma delas.</td>
+              <td>
+                Faz a animação permanecer no seu estado final (último quadro)
+                após a sua execução. Se houver mais de uma animação, a
+                propriedade animation-fill-mode deve ser definida separadamente
+                para cada uma delas.
+              </td>
             </tr>
             <tr>
               <td>backwards</td>
-              <td>Faz a animação iniciar no seu estado inicial antes de seu tempo de delay, mesmo que
-                ela ainda não tenha sido reproduzida. Se a animação for repetida, a propriedade
-                animation-fill-mode deve ser definida separadamente para cada uma delas.</td>
+              <td>
+                Faz a animação iniciar no seu estado inicial antes de seu tempo
+                de delay, mesmo que ela ainda não tenha sido reproduzida. Se a
+                animação for repetida, a propriedade animation-fill-mode deve
+                ser definida separadamente para cada uma delas.
+              </td>
             </tr>
             <tr>
               <td>both</td>
-              <td>Faz a animação seguir tanto as regras de forwards quanto backwards. A animação
-                permanecerá no seu estado final após a sua execução e começará no seu estado inicial
-                antes de seu tempo de delay.</td>
+              <td>
+                Faz a animação seguir tanto as regras de forwards quanto
+                backwards. A animação permanecerá no seu estado final após a sua
+                execução e começará no seu estado inicial antes de seu tempo de
+                delay.
+              </td>
             </tr>
           </tbody>
         </table>
 
         <h4>animation-timing-function</h4>
-        <p>Define a curva de tempo que controla a aceleração e desaceleração da animação.</p>
+        <p>
+          Define a curva de tempo que controla a aceleração e desaceleração da
+          animação.
+        </p>
         <table>
           <thead>
             <tr>
@@ -1402,39 +1688,55 @@ p {
           <tbody>
             <tr>
               <td>ease</td>
-              <td>Proporciona uma transição suave, começando devagar, aumentando a velocidade no meio
-                e diminuindo no final. É o valor padrão.</td>
+              <td>
+                Proporciona uma transição suave, começando devagar, aumentando a
+                velocidade no meio e diminuindo no final. É o valor padrão.
+              </td>
             </tr>
             <tr>
               <td>linear</td>
-              <td>Cria uma transição com velocidade constante durante todo o processo de animação.
+              <td>
+                Cria uma transição com velocidade constante durante todo o
+                processo de animação.
               </td>
             </tr>
             <tr>
               <td>ease-in</td>
-              <td>Começa devagar e acelera gradualmente até o fim da animação.</td>
+              <td>
+                Começa devagar e acelera gradualmente até o fim da animação.
+              </td>
             </tr>
             <tr>
               <td>ease-out</td>
-              <td>Começa rápido e desacelera gradualmente até o final da animação.</td>
+              <td>
+                Começa rápido e desacelera gradualmente até o final da animação.
+              </td>
             </tr>
             <tr>
               <td>ease-in-out</td>
-              <td>Começa devagar, acelera no meio e desacelera no final da animação.</td>
+              <td>
+                Começa devagar, acelera no meio e desacelera no final da
+                animação.
+              </td>
             </tr>
             <tr>
               <td>cubic-bezier(n, n, n, n)</td>
-              <td>Permite que você defina sua própria função de tempo personalizada usando coordenadas
-                de um cubo de
-                Bézier. Nesse caso, substitua os valores "n" pelas coordenadas que deseja usar.</td>
+              <td>
+                Permite que você defina sua própria função de tempo
+                personalizada usando coordenadas de um cubo de Bezier. Nesse
+                caso, substitua os valores &quot;n&quot; pelas coordenadas que
+                deseja usar.
+              </td>
             </tr>
           </tbody>
         </table>
 
         <h4>animation-play-state</h4>
-        <p>Define se a animação está em execução ou pausada. Essa propriedade recebe
-          dois valores possíveis: paused, que pausa a animação em seu estado atual e
-          running, que executa a animação.</p>
+        <p>
+          Define se a animação está em execução ou pausada. Essa propriedade
+          recebe dois valores possíveis: paused, que pausa a animação em seu
+          estado atual e running, que executa a animação.
+        </p>
         <CodeCmp language="css">
           {`.box {
   animation-name: mudarCor;
@@ -1444,9 +1746,12 @@ p {
         </CodeCmp>
 
         <h4>Short Hand</h4>
-        <p>Para deixar o código mais simples podemos declarar toda a animação em uma unica linha. Para isso
-          devemos declarar o "animation" e seus valores na seguinte ordem: name, duration,
-          timing-function, delay, iteration-count, direction, fill-mode</p>
+        <p>
+          Para deixar o código mais simples podemos declarar toda a animação em
+          uma unica linha. Para isso devemos declarar o &quot;animation&quot; e
+          seus valores na seguinte ordem: name, duration, timing-function,
+          delay, iteration-count, direction, fill-mode
+        </p>
         <CodeCmp language="css">
           {`.container {
   animation: mudarCor 2s ease-in 1s infinite alternate both;
@@ -1455,9 +1760,12 @@ p {
       </SectionCmp>
 
       <SectionCmp title="Transitions">
-        <p>As transitions são semelhantes ao animation: com elas podemos criar animações de transição no
-          ":hover" de elementos. O transition deve ser declarado na seguinte ordem: property, duration
-          delay, timing-function.</p>
+        <p>
+          As transitions são semelhantes ao animation: com elas podemos criar
+          animações de transição no &quot;:hover&quot; de elementos. O
+          transition deve ser declarado na seguinte ordem: property, duration
+          delay, timing-function.
+        </p>
         <table>
           <thead>
             <tr>
@@ -1468,23 +1776,32 @@ p {
           <tbody>
             <tr>
               <td>transition-property</td>
-              <td>Especifica a(s) propriedade(s) CSS que serão animadas durante a transição. É
-                possível definir várias
-                propriedades separadas por vírgula.</td>
+              <td>
+                Especifica a(s) propriedade(s) CSS que serão animadas durante a
+                transição. É possível definir várias propriedades separadas por
+                vírgula.
+              </td>
             </tr>
             <tr>
               <td>transition-duration</td>
-              <td>Especifica a duração da transição em segundos (s) ou milissegundos (ms).</td>
+              <td>
+                Especifica a duração da transição em segundos (s) ou
+                milissegundos (ms).
+              </td>
             </tr>
             <tr>
               <td>transition-delay</td>
-              <td>Especifica um atraso antes do início da transição em segundos (s) ou milissegundos
-                (ms).</td>
+              <td>
+                Especifica um atraso antes do início da transição em segundos
+                (s) ou milissegundos (ms).
+              </td>
             </tr>
             <tr>
               <td>transition-timing-function</td>
-              <td>Especifica como a transição ocorrerá. Pode receber os valores: ease, linear,
-                ease-in, ease-out, ease-in-out ou cubic-bezier(n, n, n, n).
+              <td>
+                Especifica como a transição ocorrerá. Pode receber os valores:
+                ease, linear, ease-in, ease-out, ease-in-out ou cubic-bezier(n,
+                n, n, n).
               </td>
             </tr>
           </tbody>

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import HeaderCmp from './components/header';
+import HeaderCmp from './components/header'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={inter.className}>
         <HeaderCmp />
-        <div className='max-w-3xl mx-auto mt-4 leading-7 container px-3'>
+        <div className="max-w-3xl mx-auto mt-10 leading-7 container px-3">
           {children}
         </div>
       </body>
