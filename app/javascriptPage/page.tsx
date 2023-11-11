@@ -1,5 +1,7 @@
 import SectionCmp from './../components/section'
 import CodeCmp from './../components/code'
+import Image from 'next/image'
+import mvcImg from '@/app/assets/mvc.png'
 
 export default function JavascriptPage() {
   return (
@@ -1650,7 +1652,14 @@ console.log("patrick")`}
           processa as informações recebidas e atualiza o modelo e a view
           correspondentes.
         </p>
-        {/* <img src="../images/mvc.png" alt="exemplo MVC"> */}
+        <Image
+          src={mvcImg}
+          alt="Exemplo MVC"
+          style={{
+            width: '100%',
+            height: 'auto',
+          }}
+        />
       </SectionCmp>
     </>
   )

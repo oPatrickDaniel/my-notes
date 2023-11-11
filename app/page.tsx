@@ -1,5 +1,7 @@
 import SectionCmp from './components/section'
 import CodeCmp from './components/code'
+import Image from 'next/image'
+import cicloDesenvolvimentoImg from '@/app/assets/cicloDesenvolvimento.png'
 
 export default function Home() {
   return (
@@ -19,7 +21,14 @@ export default function Home() {
         <p>Estágio 3 - Validação da solução.</p>
         <p>Estágio 4 - Desenvolvimento e testes.</p>
         <p>Estágio 5 - Implantação e entrega.</p>
-        {/* <img src="../images/desenvolvimento_software.png" alt="img" /> */}
+        <Image
+          src={cicloDesenvolvimentoImg}
+          alt="Ciclo de desenvolvimento"
+          style={{
+            width: '100%',
+            height: 'auto',
+          }}
+        />
       </SectionCmp>
 
       <SectionCmp title='Método 5 "Q"s para montar um algoritmo'>

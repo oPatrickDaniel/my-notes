@@ -1,10 +1,12 @@
 import CodeCmp from '../components/code'
 import SectionCmp from '../components/section'
+import Image from 'next/image'
+import boxModelImg from '@/app/assets/boxModel.png'
 
 export default function ComponentName() {
   return (
     <>
-      <h1>Logica de programação</h1>
+      <h1>Css3</h1>
 
       <SectionCmp title="Css inline">
         <p>
@@ -267,7 +269,14 @@ export default function ComponentName() {
           e a borda da página. Essa estrutura é formada pelos elementos margin,
           border e padding do interior para o exterior, nessa ordem.
         </p>
-        {/* <img src="../images/borderbox.png" alt="border box"> */}
+        <Image
+          src={boxModelImg}
+          alt="Exemplo border box"
+          style={{
+            width: '100%',
+            height: 'auto',
+          }}
+        />
       </SectionCmp>
 
       <SectionCmp title="box-sizing">
@@ -1064,7 +1073,6 @@ p {
           posicionamento de elementos com mais liberdade. com ele podemos
           alinhar qualquer elemento nas nove direções de uma div.
         </p>
-        {/* <img src="../images/flexbox.png" alt="posições flexbox"> */}
 
         <h4>Flex Direction</h4>
 
