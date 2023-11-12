@@ -1,5 +1,5 @@
-import SectionCmp from './../components/section'
-import CodeCmp from '../components/code'
+import SectionCmp from '../../components/section'
+import CodeCmp from '../../components/code'
 
 export default function typescriptPage() {
   return (

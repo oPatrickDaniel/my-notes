@@ -1,5 +1,5 @@
-import SectionCmp from './../components/section'
-import CodeCmp from './../components/code'
+import SectionCmp from '../../components/section'
+import CodeCmp from '../../components/code'
 import Image from 'next/image'
 import mvcImg from '@/app/assets/mvc.png'
 

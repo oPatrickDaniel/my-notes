@@ -1,5 +1,5 @@
-import CodeCmp from '../components/code'
-import SectionCmp from '../components/section'
+import CodeCmp from '../../components/code'
+import SectionCmp from '../../components/section'
 import Image from 'next/image'
 import boxModelImg from '@/app/assets/boxModel.png'
 
