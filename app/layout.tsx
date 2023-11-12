@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="pt-br">
       <body className={inter.className}>
         <HeaderCmp />
-        <div className="max-w-3xl mx-auto mt-10 leading-7 container px-3">
+        <div className="container mx-auto mt-10 max-w-3xl px-3 leading-7">
           {children}
         </div>
       </body>

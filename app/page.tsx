@@ -9,7 +9,7 @@ export default function Home() {
       <h1>Logica de programação</h1>
 
       <SectionCmp title="Porque um software é criado?">
-        <ul className="list-disc list-inside">
+        <ul className="list-inside list-disc">
           <li>Para criar soluções para problemas do dia a dia.</li>
           <li>Automação e otimização de processos.</li>
         </ul>
@@ -37,7 +37,7 @@ export default function Home() {
           problema pra voce mesmo em voz alta e compreender completamente o
           problema).
         </p>
-        <ol className="list-decimal list-inside">
+        <ol className="list-inside list-decimal">
           <li>Quais são os dados de entrada necessários?</li>
           <li>O que devo fazer com esses dados?</li>
           <li>Quais são as restrições deste problema?</li>
