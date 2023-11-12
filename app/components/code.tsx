@@ -16,11 +16,11 @@ export default function CodeCmp(props: codeCmpProps) {
 
   return (
     <>
-      <div className="my-3 rounded overflow-hidden border border-gray-400">
-        <div className="flex justify-between px-4 bg-gray-500 text-white text-xs items-center ">
+      <div className="my-3 overflow-hidden rounded border border-gray-400">
+        <div className="flex items-center justify-between bg-gray-500 px-4 text-xs text-white ">
           <p className="text-sm">Exemplo</p>
           {copy ? (
-            <button className="py-2 flex justify-center items-center gap-1">
+            <button className="flex items-center justify-center gap-1 py-2">
               <span className="w-4">
                 <Checkmark />
               </span>
@@ -28,7 +28,7 @@ export default function CodeCmp(props: codeCmpProps) {
             </button>
           ) : (
             <button
-              className="py-2 flex justify-center items-center gap-1"
+              className="flex items-center justify-center gap-1 py-2"
               onClick={() => {
                 navigator.clipboard.writeText(codeString)
                 setCopy(true)

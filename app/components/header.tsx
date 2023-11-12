@@ -3,11 +3,11 @@ export default function HeaderCmp() {
     <>
       <header className="bg-gray-600 p-4">
         <div className="container mx-auto">
-          <nav className="flex justify-between items-center flex-wrap text-white">
-            <div className="logo text-white text-xl font-bold">
+          <nav className="flex flex-wrap items-center justify-between text-white">
+            <div className="logo text-xl font-bold text-white">
               Minha Anotações
             </div>
-            <div className="hidden md:flex flex-grow justify-end items-center space-x-4">
+            <div className="hidden flex-grow items-center justify-end space-x-4 md:flex">
               <a href="./">Lógica</a>
               <a href="./htmlPage">Html</a>
               <a href="./cssPage">Css</a>
@@ -19,7 +19,7 @@ export default function HeaderCmp() {
             <div className="flex md:hidden">
               <button className="text-white">
                 <svg
-                  className="w-6 h-6"
+                  className="h-6 w-6"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
