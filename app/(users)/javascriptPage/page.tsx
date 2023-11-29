@@ -1318,15 +1318,15 @@ let arrow = b => b * 2`}
           {`let userList = []
 
 function printUser() {
-  console.log(lista_de_user)
+  console.log(userList)
 }
-function addUsers(nome, callback) {
+function addUsers(name, callback) {
   setTimeout(() => {
-    lista_de_users.push(nome)
+    userList.push(name)
     callback()
   }, 1000);
 }
-addUsers("Patrick", printUsers)`}
+addUsers("Patrick", printUser)`}
         </CodeCmp>
         <p>
           Esse tipo de função também pode ser conhecido função de ordem superior
@@ -1334,6 +1334,7 @@ addUsers("Patrick", printUsers)`}
         </p>
 
         <h3>Promises</h3>
+
         <p>
           A promise é um objeto que surgiu com um substituto para o callback.
           Ela possui os mesma função do callback, porém com uma sintaxe melhor
@@ -1367,14 +1368,15 @@ function addUsers(nome) {
   })
   return promise;
 }
+
 function printUsers() {
   console.log(users)
 }
-addUser("Daniel").then(printUsers)`}
-        </CodeCmp>
-      </SectionCmp>
 
-      <SectionCmp title="Async Await">
+addUsers("Daniel").then(printUsers)`}
+        </CodeCmp>
+
+        <h3>Async Await</h3>
         <p>
           uma outra maneira de executar o promise é usar o async await. Este é
           um modo de somente executar uma função após o elemento await ser
