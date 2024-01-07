@@ -164,6 +164,10 @@ export default function HtmlPage() {
           <code>width=&quot;&quot;</code> (largura) ou trocar a imagem de acordo
           com o tamanho da página usando <code>srcset=&quot;&quot;</code>.
         </p>
+        <p>
+          Usando o site <a href="https://tinypng.com">tinypng.com</a> é possível
+          otimizar imagens para utiliza-as em sites
+        </p>
         <CodeCmp language="html">
           {'<img src="linkdaimagem" alt="descrição da imagem">'}
         </CodeCmp>
